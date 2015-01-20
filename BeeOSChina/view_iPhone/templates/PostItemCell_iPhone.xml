@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="PostItemCell_iPhone">
+    <linear orientation="h" class="wrapper">
+        <view class="inner-bg">
+        </view>
+        <button id="mask" class="inner-bg"/>
+        <linear orientation="v" class="image_wrapper">
+            <image class="image_wrapper" id="post_avatar"></image>
+        </linear>
+        <linear orientation="v" class="label_wrapper">
+            <label class="sub-title" id="main_title">
+            </label>
+            <label class="sub-content" id="author_info">
+            </label>
+        </linear>
+        <linear orientation="v" class="reply_wrapper">
+            <label class="sub-title-right" id="anwser_count">
+            </label>
+            <label class="sub-content-right" id="anwser_type">
+            </label>
+        </linear>
+    </linear>
+    
+    <style type="text/css">
+        .image_wrapper {
+        width: 32px;
+        height: 32px;
+        margin-top:8px;
+        margin-left:4px;
+        margin-right:4px;
+        margin-bottom:4px;
+        }
+        
+        .label_wrapper {
+        width: 70%;
+        height: 64px;
+        }
+        
+        .reply_wrapper {
+        width: 15%;
+        height: 64px;
+        }
+        
+        .wrapper {
+        width: 100%;
+        height: 64px;
+        }
+        
+        .inner-bg {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        background-color: #fff;
+        padding: 0px 2px;
+        border-radius: 8px;
+        }
+        
+        .sub-title {
+        width: 100%;
+        height: 32px;
+        margin-top: 4px;
+        margin-left:6px;
+        padding: 0px 0px;
+        color: #333;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: left;
+        line-num: 999;
+        line-break: word-wrap;
+        }
+        
+        .sub-content {
+        width: 85%;
+        height: 16px;
+        margin-bottom: 10px;
+        margin-left:6px;
+        padding: 0px 0px;
+        color: #333;
+        font-size: 12px;
+        font-weight: lighter;
+        text-align: left;
+        line-num: 999;
+        line-break: word-wrap;
+        }
+        
+        .sub-title-right {
+        width: 48px;
+        height: 32px;
+        margin-top: 8px;
+        padding: 0px 0px 0px 0px;
+        color: #333;
+        font-size: 10px;
+        font-weight: lighter;
+        text-align: bottom;
+        line-num: 999;
+        line-break: word-wrap;
+        }
+        
+        .sub-content-right {
+        width: 48px;
+        height: 16px;
+        margin-bottom: 10px;
+        margin-top: -10px;
+        padding: 0px 0px;
+        color: #333;
+        font-size: 10px;
+        font-weight: lighter;
+        text-align:top;
+        line-num: 999;
+        line-break: word-wrap;
+        }
+        
+        @media(device:iphone6)
+        {
+        .reply_wrapper {
+        margin-left:35px;
+        }
+        }
+        
+    </style>
+</ui>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="TestCell">
+    <linear id="layout1" orientation="v" class="h-wrapper">
+        <button id="btn1" class="view gray">World</button>
+        <label id="label1" class="view blue">Hello</label>
+    </linear>
+    
+    <style type="text/css">
+        .wrapper {
+        width: 100%;
+        height: 100%;
+        }
+        
+        .h-wrapper { width: 40px; height: auto;}
+        
+        .view { width: 40px; height: 20px;}
+        
+        .blue { background-color:#007DBC }
+        .gray { background-color: #AEAEAE }
+    </style>
+</ui>

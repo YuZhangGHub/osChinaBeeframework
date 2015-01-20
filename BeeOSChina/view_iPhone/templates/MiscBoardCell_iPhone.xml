@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="MiscBoardCell_iPhone">
+    
+    <linear orientation="v" class="outter-wrapper">
+        
+        <linear orientation="h" class="wrapper">
+            <view class="inner-bg"/>
+            <button id="button_account" class="inner-bg"/>
+            <image class="sub-logo" src="account.png"/>
+            <label id="label_account" class="sub-content">登陆
+            </label>
+        </linear>
+        
+        <!--linear orientation="h" class="wrapper">
+            <view class="inner-bg"/>
+            <button id="btn_scan" class="inner-bg"/>
+            <image class="sub-logo" src="scan.png"/>
+            <label id="" class="sub-content">扫一扫
+            </label>
+        </linear-->
+        
+        <linear orientation="h" class="wrapper">
+            <view class="inner-bg"/>
+            <button id="btn_signout" class="inner-bg"/>
+            <image class="sub-logo" src="exit.png"/>
+            <label id="" class="sub-content">注销
+            </label>
+        </linear>
+        
+        <linear orientation="h" class="section-wrapper">
+            <view class="inner-bg"/>
+            <button id="btn_software" class="inner-bg"/>
+            <image class="sub-logo" src="software.png"/>
+            <label id="" class="sub-content-soft">软件
+            </label>
+            <image id="arrow" class="arrow"/>
+        </linear>
+        
+        <linear orientation="h" class="section-wrapper">
+            <view class="inner-bg"/>
+            <button id="btn_weibo" class="inner-bg"/>
+            <image class="sub-logo" src="weibo.png"/>
+            <label id="" class="sub-content">微博
+            </label>
+        </linear>
+        
+        <linear orientation="h" class="wrapper">
+            <view class="inner-bg"/>
+            <button id="btn_update" class="inner-bg"/>
+            <image class="sub-logo" src="setting.png"/>
+            <label id="" class="sub-content">检测更新
+            </label>
+        </linear>
+        
+        <linear orientation="h" class="wrapper">
+            <view class="inner-bg"/>
+            <button id="btn_about" class="inner-bg"/>
+            <image class="sub-logo" src="logo.png"/>
+            <label id="" class="sub-content">关于我们
+            </label>
+        </linear>
+        
+   </linear>
+    
+    <style type="text/css">
+        
+        .outter-wrapper {
+        width: 100%;
+        height: auto;
+        }
+        
+        .wrapper {
+        margin-top: 9px;
+        margin-left: 9px;
+        width: 95%;
+        height: auto;
+        }
+        
+        .section-wrapper {
+        margin-top: 9px;
+        margin-left: 9px;
+        width: 95%;
+        height: auto;
+        }
+        
+        .inner-bg {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        background-color: #fff;
+        padding: 0px 4px;
+        border-radius: 8px;
+        }
+        
+        .sub-logo {
+        width: auto;
+        height: auto;
+        margin-left: 18px;
+        margin-top: 4px;
+        color: #333;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: left;
+        line-num: 2;
+        line-break: word-wrap;
+        }
+        
+        .sub-content {
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 0px 20px;
+        color: #333;
+        font-size: 14px;
+        font-weight: lighter;
+        text-align: left;
+        line-num: 999;
+        line-break: word-wrap;
+        }
+        
+        .sub-content-soft {
+        width: 70%;
+        height: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 0px 20px;
+        color: #333;
+        font-size: 14px;
+        font-weight: lighter;
+        text-align: left;
+        line-num: 999;
+        line-break: word-wrap;
+        }
+        
+        #mask {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        }
+        
+        .arrow {
+        width: 10%;
+        margin-top: 12px;
+        height: auto;
+        float:right;
+        image-src: url(accsessory_arrow_right.png);
+        }
+        
+    </style>
+</ui>

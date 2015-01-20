@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="SignInBoard_iPhone">
+    <col class="list-wrapper-group">
+        <row class="list-item-header">
+            <image class="list-item-header-bg" />
+            <image class="input-icon-user" />
+            <input id="username" class="signin-input" placeholder="用户名"></input>
+        </row>
+        <row class="list-item-footer">
+            <image class="list-item-footer-bg" />
+            <image class="input-icon-password" />
+            <input id="password" class="signin-input done" placeholder="密码"></input>
+        </row>
+    </col>
+    
+    <linear orientation="v" class="wrapper">
+        <view class="inner-bg"/>
+        <label class="profile-intro">
+            您可以在http://www.oschina.net上免费注册一个账号用来登陆。
+        </label>
+        <linear orientation="h" class="profile-wrapper">
+                <button id="btn_singup" class="profile-contact">注册账户</button>
+                <button id="btn_login_more" class="profile-contact">了解更多</button>
+        </linear>
+    </linear>
+    
+    <style type="text/css">
+        .wrapper {
+        margin-top: 0px;
+        width: 100%;
+        height: auto;
+        }
+        
+        .input-icon-user {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 18px;
+        height: 18px;
+        image-src: url(log_in_user_name_icon.png);
+        image-mode: center;
+        }
+        .input-icon-password {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 18px;
+        height: 18px;
+        image-src: url(log_in_key_icon.png);
+        image-mode: fit;
+        }
+        .signup-wrapper {
+        width: 100%;
+        height: auto;
+        }
+        #signup {
+        margin-top: 20px;
+        float: center;
+        height: 20px;
+        width: 50%;
+        float: center;
+        margin-right: 20;
+        button-title-color: #666;
+        }
+        .line {
+        margin-top: 1px;
+        float: center;
+        height: 1px;
+        width: 40%;
+        background-color: #666;
+        }
+        .signin-input {
+        height: 35px;
+        width: 255px;
+        line-height: 35px;
+        font: 16px;
+        input-clear: editing;
+        input-capitalization: none;
+        input-return-key: next;
+        input-correction: false;
+        }
+        .done {
+        input-secure: yes;
+        input-return-key: done;
+        }
+        #password {
+        input-secure: yes;
+        input-keyboard: abc;
+        }
+        .list-wrapper {
+        width: 100%;
+        align: center;
+        height: 44px;
+        }
+        .list-wrapper-group {
+        margin-left: 10px;
+        margin-top: 14px;
+        width: 95%;
+        align: center;
+        height: 100px;
+        }
+        .list-item {
+        margin-top: 10px;
+        width: 100%;
+        height: 44px;
+        v-align: center;
+        }
+        .list-item-header {
+        width: 100%;
+        height: 44px;
+        v-align: center;
+        }
+        .list-item-footer {
+        width: 100%;
+        height: 44px;
+        v-align: center;
+        }
+        .list-item-header-bg {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-mode: stretch;
+        background-insets: 10px;
+        background-image: url(cell_bg_header.png);
+        }
+        .list-item-footer-bg {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-mode: stretch;
+        background-insets: 10px;
+        background-image: url(cell_bg_footer.png);
+        }
+        .list-item-bg {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-mode: stretch;
+        background-insets: 10px;
+        background-image: url(cell_bg_single.png);
+        }
+        
+        .inner-bg {
+        width: 100%;
+        height: 80px;
+        position: absolute;
+        left: 0px;
+        top: 14px;
+        background-color: #fff;
+        padding: 0px 12px;
+        border-radius: 8px;
+        }
+        
+        .profile-wrapper {
+        width: 100%;
+        height: auto;
+        }
+        
+        .profile-contact {
+        width: 96px;
+        height: 24px;
+        top: 8;
+        left: 40;
+        font-size: 12px;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        background-color: #1ea756;
+        border-radius: 5px;
+        }
+        
+        .profile-intro {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        padding: 0px 15px;
+        color: #333;
+        font-size: 14px;
+        font-weight: lighter;
+        text-align: left;
+        line-num: 2;
+        line-break: word-wrap;
+        }
+        
+    </style>
+    
+</ui>

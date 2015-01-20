@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<template namespace="SearchBoardTab_iPhone">
+    <linear class="wrapper" orientation="h">
+        <image id="bg"/>
+        <button id="software"   class="item active">软件</button>
+        <button id="question"   class="item">问答</button>
+        <button id="blog"       class="item">博客</button>
+        <button id="news"       class="item">新闻</button>
+    </linear>
+    
+    <style type="text/css">
+        #bg {
+        /*background-color: #F00;*/
+        image-src: url(tab-bar.png) !important;
+        image-mode: stretched;
+        position: absolute;
+        left: 0;
+        top: 0;
+        }
+        
+        .wrapper {
+        width: 100%;
+        height: 100%;
+        float: center;
+        }
+        
+        .item {
+        width: 25.0%;
+        height: 100%;
+        color: #666;
+        font-size: 13px;
+        font-weight: lighter;
+        }
+        
+        .active {
+        color: #fff;
+        background-image: url(tab-item.png);
+        }
+        
+        @media(device:iOS7)
+        {
+        #bg {
+        alpha: 0.7;
+        }
+        
+        .item {
+        color: #ccc;
+        alpha: 0.7;
+        }
+        
+        .active {
+        color: #fff;
+        alpha: 0.85;
+        }
+        }
+        
+    </style>
+</template>

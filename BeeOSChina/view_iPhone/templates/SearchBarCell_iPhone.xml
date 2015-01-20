@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ui namespace="SearchBarCell_iPhone">
+    
+    <row class="container">
+        
+        <row class="search-input-wrapper">
+            <image class="search-input-bg"/>
+            <image class="search-icon"/>
+            <input id="search_input" placeholder="@{search_input}"></input>
+        </row>
+    </row>
+    
+    <style>
+        .container {
+        width: 100%;
+        height: 100%;
+        v-align: center;
+        margin-left: 1px;
+        }
+        
+        .search-input-wrapper {
+        width: 90%;
+        height: 29px;
+        v-align: center;
+        float:center;
+        }
+        
+        .search-icon {
+        width: 14px;
+        height: 15px;
+        margin-left: 5px;
+        image: url(searcher_new_search_icon.png);
+        }
+        
+        #search-input {
+        width: 80%;
+        height: 100%;
+        font-size: 14px;
+        margin-left: 5px;
+        input-clear: editing;
+        input-return-key: search;
+        }
+        
+        .search-input-bg {
+        top: 0;
+        left: 0;
+        width: 250px;
+        height: 29px;
+        position: absolute;
+        image-src: url(searcher_new_search_box.png);
+        image-mode: fit;
+        }
+        
+    </style>
+    
+</ui>

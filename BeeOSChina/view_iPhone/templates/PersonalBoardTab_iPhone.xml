@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<template namespace="PersonalBoardTab_iPhone" version="1">
+    
+    <linear class="wrapper" orientation="h">
+        <image id="bg"/>
+        <button id="all"   class="item active">所有</button>
+        <button id="at"   class="item">@我</button>
+        <button id="comments" class="item">评论</button>
+        <button id="selfstuff"   class="item">我自己</button>
+        <button id="message" class="item">留言</button>
+    </linear>
+    
+    <style type="text/css">
+        #bg {
+        /*background-color: #F00;*/
+        image-src: url(tab-bar.png) !important;
+        image-mode: stretched;
+        position: absolute;
+        left: 0;
+        top: 0;
+        }
+        
+        .wrapper {
+        width: 100%;
+        height: 100%;
+        float: center;
+        }
+        
+        .item {
+        width: 20.0%;
+        height: 100%;
+        color: #666;
+        font-size: 13px;
+        font-weight: lighter;
+        }
+        
+        .active {
+        color: #fff;
+        background-image: url(tab-item.png);
+        }
+        
+        @media(device:iOS7)
+        {
+        #bg {
+        alpha: 0.7;
+        }
+        
+        .item {
+        color: #ccc;
+        alpha: 0.7;
+        }
+        
+        .active {
+        color: #fff;
+        alpha: 0.85;
+        }
+        }
+        
+    </style>
+</template>

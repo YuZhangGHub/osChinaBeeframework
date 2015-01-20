@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="ProfileBoard_iPhone">
+    <col class="wrapper">
+        
+        <col class="header-wrapper">
+            <image id="profile_img_bg" class="bg"/>
+            <col class="header-box">
+                <col class="header-avatar-box">
+                    <image id="header_avatar" class="header-avatar"/>
+                    <button id="header_carema" class="header-carema"/>
+                    <button id="carema_photo"/>
+               </col>
+            </col>
+        </col>
+        
+        <col class="scroll-wrapper">
+            
+            <col class="list-wrapper">
+                
+                <row class="list-item">
+                    <image class="list-bg"/>
+                    <label class="list-title">收藏</label>
+                    <label id="label_favorite_count" class="list-subtitle"></label>
+                    <image class="list-indictor"/>
+                    <button id="profile_favorites" class="mask"/>
+                </row>
+                
+            </col>
+        </col>
+        
+        <col class="scroll-wrapper">
+            
+            <col class="list-wrapper">
+                
+                <row class="list-item">
+                    <image class="list-bg"/>
+                    <label class="list-title">粉丝</label>
+                    <label id="label_fans_count" class="list-subtitle"></label>
+                    <image class="list-indictor"/>
+                    <button id="profile_fans" class="mask"/>
+                </row>
+                
+            </col>
+        </col>
+        
+        <col class="scroll-wrapper">
+            
+            <col class="list-wrapper">
+                
+                <row class="list-item">
+                    <image class="list-bg"/>
+                    <label class="list-title">关注</label>
+                    <label id="label_follows_count" class="list-subtitle"></label>
+                    <image class="list-indictor"/>
+                    <button id="profile_follows" class="mask"/>
+                </row>
+                
+            </col>
+        </col>
+    
+    <col class="list-wrapper-group">
+        <row class="list-item-header">
+            <image class="list-item-header-bg"/>
+            <label class="list-title-field">加入时间</label>
+            <label id="dev_joindate" class="list-subtitle-left"></label>
+        </row>
+        
+        <row class="list-item-grid">
+            <image class="list-item-bg"/>
+            <label class="list-title-field">所在地区</label>
+            <label id="dev_location" class="list-subtitle-left"></label>
+        </row>
+        
+        <row class="list-item-grid">
+            <image class="list-item-bg"/>
+            <label class="list-title-field">开发平台</label>
+            <label id="dev_platform" class="list-subtitle-more"></label>
+        </row>
+        
+        <row class="list-item-footer">
+            <image class="list-item-footer-bg"/>
+            <label class="list-title-field">擅长领域</label>
+            <label id="dev_domain" class="list-subtitle-more"></label>
+        </row>
+    </col>
+    
+    </col>
+    
+    <style type="text/css">
+        
+        .wrapper {
+        height: auto;
+        width: 100%;
+        }
+        
+        .scroll-wrapper {
+        height: auto;
+        margin-top: 2px;
+        align: center;
+        }
+        
+        .list-wrapper {
+        align: center;
+        height: auto;
+        }
+        
+        .list-item {
+        margin-top: 2px;
+        width: 85%;
+        height: 44px;
+        v-align: center;
+        }
+        
+        .list-title {
+        margin-left: 14px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #333;
+        width: 32px;
+        text-align: left;
+        height: 20px;
+        }
+        
+        .list-subtitle {
+        font-size: 14px;
+        font-weight: lighter;
+        color: #333;
+        margin: 0 4px;
+        width: 224px;
+        text-align: left;
+        height: 20px;
+        }
+        
+        .list-title-field {
+        margin-left: 14px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #333;
+        width: 64px;
+        text-align: left;
+        font-color: #0d6da8;
+        height: 20px;
+        }
+        
+        .list-subtitle-left {
+        font-size: 14px;
+        font-weight: lighter;
+        color: #333;
+        margin-left: 4px;
+        width: 200px;
+        text-align: left;
+        height: 20px;
+        font-weight: lighter;
+        text-align: left;
+        line-num: 2;
+        line-break: word-wrap;
+        }
+        
+        .list-subtitle-more {
+        font-size: 12px;
+        font-weight: lighter;
+        color: #333;
+        margin-left: 4px;
+        width: 200px;
+        text-align: left;
+        height: 20px;
+        font-weight: lighter;
+        text-align: left;
+        line-num: 2;
+        line-break: word-wrap;
+        }
+        
+        .list-indictor {
+        width: 10%;
+        height: 100%;
+        image: url(accsessory_arrow_right.png);
+        float:right;
+        }
+        
+        .header-wrapper {
+        width: 100%;
+        height: 167px;
+        v-align: center;
+        }
+        
+        .header-box {
+        width: 280px;
+        height: 150px;
+        align: center;
+        float:center;
+        }
+    
+        .header-avatar-box {
+        width: 64px;
+        height: 64px;
+        v-align: bottom;
+        margin-top: 20px;
+        align: center;
+        }
+        
+        .header-avatar {
+        width: 64px;
+        height: 64px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        image-mode: fill;
+        border-radius: 32px;
+        border-width: 4px;
+        border-color: #fff;
+        }
+        
+        .header-level-box {
+        width: auto;
+        height: 24px;
+        }
+        
+        header-level-icon {
+        margin-top: 2px;
+        height: 25px;
+        width: 18px;
+        margin-right: 5px;
+        image-mode: fit;
+        }
+        
+        header-level-name {
+        background-color: #333 0.6;
+        border-radius: 3px;
+        color: #ccc;
+        width:auto;
+        height: 16px;
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: 5px;
+        }
+        
+        .header-carema {
+        width: 24px;
+        height: 24px;
+        float: right;
+        background-image: url(profile_refresh_camera_icon.png);
+        }
+        
+        .header-name {
+        font-size: 13px;
+        font-weight: bold;
+        color: #fff;
+        width: auto;
+        height: 20px;
+        text-align: center;
+        margin: 6px;
+        }
+        
+        .list-bg {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        image: url(body_cont_bg.png);
+        image-insets: 10;
+        image-mode: fit;
+        }
+        
+        .bg {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #eee;
+        image-src:url(profile_img_bg.png);
+        }
+        
+        .list-wrapper-group {
+        width: 85%;
+        align: center;
+        height: auto;
+        float: center;
+        }
+        
+        .list-item-header {
+        margin-top: 5px;
+        width: 100%;
+        height: 44px;
+        v-align: center;
+        }
+        
+        .list-item-header-bg {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-mode: stretch;
+        background-insets: 10px;
+        background-image: url(cell_bg_header.png);
+        }
+        
+        .list-item-bg {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-mode: stretch;
+        background-insets: 10px;
+        background-image: url(cell_bg_content.png);
+        }
+        
+        .list-item-grid {
+        width: 100%;
+        height: 44px;
+        v-align: center;
+        }
+        
+        .list-item-footer {
+        width: 100%;
+        height: 44px;
+        v-align: center;
+        }
+        
+        .list-item-footer-bg {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-mode: stretch;
+        background-insets: 10px;
+        background-image: url(cell_bg_footer.png);
+        }
+        
+        .mask {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        }
+        
+    </style>
+</ui>

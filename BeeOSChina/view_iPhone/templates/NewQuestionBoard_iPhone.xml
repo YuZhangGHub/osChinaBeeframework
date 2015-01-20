@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="NewQuestionBoard_iPhone">
+    <QuestionBoardTab_iPhone id="tabbar"/>
+    <linear orientation="v" class="wrapper">
+        <linear orientation="h" class="title_wrapper">
+            <label id="label_receiver" class="label_receiver">标题:</label>
+            <input id="question_title" class="title_wrapper"></input>
+        </linear>
+        <label id="label_description" class="label_description">请对问题进行详细描述:</label>
+        <input id="comment" class="inner-bg"></input>
+        <linear orientation="h" class="title_wrapper">
+            <label class="label_wrapper">有人回答时邮件通知我</label>
+            <switch id="switch_email" class="switch_wrapper"></switch>
+        </linear>
+    </linear>
+    
+    <style type="text/css">
+        
+        #tabbar {
+        width: 100%;
+        height: 44px;
+        }
+        
+        .wrapper {
+        width: 100%;
+        height: auto;
+        }
+        
+        .label_wrapper {
+        width: 144px;
+        height:17px;
+        color: #333;
+        font-size: 14px;
+        margin-left: 24px;
+        margin-top: 6px;
+        }
+        
+        .switch_wrapper {
+        width: 50px;
+        height:31px;
+        }
+        
+        .label_description {
+        width: 128px;
+        height:20px;
+        color: #333;
+        font-size: 12px;
+        margin-left: 10px;
+        margin-top: 10px;
+        text-align:left;
+        }
+        
+        .title_wrapper {
+        width: 91%;
+        height:30px;
+        margin-left: -14px;
+        margin-top:  5px;
+        border-radius: 4px;
+        text-align:left;
+        font-size: 14px;
+        font-weight: lighter;
+        background-color: #fff;
+        }
+        
+        .label_receiver {
+        width:55px;
+        height:30px;
+        text-align:left;
+        margin-top:4px;
+        margin-left: 19px;
+        font-size: 14px;
+        padding: 2px 14px 0px 5px;
+        }
+        
+        .inner-bg {
+        width: 100%;
+        height: 88px;
+        left: 0px;
+        top: 0px;
+        margin-top:6px;
+        margin-left: 5px;
+        background-color: #fff;
+        padding: 0px 14px 0px 5px;
+        border-radius: 8px;
+        }
+        
+    </style>
+</ui>
