@@ -18,6 +18,11 @@
 		E60F5F741A13684F00237DED /* accsessory_arrow_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E60F5F731A13684F00237DED /* accsessory_arrow_right@2x.png */; };
 		E61622A41A09CA8B00C89398 /* oschina.mm in Sources */ = {isa = PBXBuildFile; fileRef = E61622A31A09CA8B00C89398 /* oschina.mm */; };
 		E618C8561A2170AB002F2992 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E618C8551A2170AB002F2992 /* logo@2x.png */; };
+		E61C2B8C1A74BABF004980C1 /* Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = E61C2B861A74BABF004980C1 /* Icon-29.png */; };
+		E61C2B8D1A74BABF004980C1 /* Icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = E61C2B871A74BABF004980C1 /* Icon-50.png */; };
+		E61C2B8E1A74BABF004980C1 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = E61C2B881A74BABF004980C1 /* Icon-72.png */; };
+		E61C2B8F1A74BABF004980C1 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = E61C2B891A74BABF004980C1 /* Icon-Small.png */; };
+		E61C2B901A74BABF004980C1 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E61C2B8A1A74BABF004980C1 /* Icon-Small@2x.png */; };
 		E62A24F51A22D88100509D85 /* SoftwareBoard_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = E62A24F31A22D88100509D85 /* SoftwareBoard_iPhone.m */; };
 		E62A24F61A22D88100509D85 /* SoftwareBoard_iPhone.xml in Resources */ = {isa = PBXBuildFile; fileRef = E62A24F41A22D88100509D85 /* SoftwareBoard_iPhone.xml */; };
 		E62A24FA1A22D94C00509D85 /* SoftwareBoardTab_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = E62A24F81A22D94C00509D85 /* SoftwareBoardTab_iPhone.m */; };
@@ -418,29 +423,6 @@
 		E67DD8B019F607D30052A1BE /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = E67DD75B19F607D30052A1BE /* unzip.c */; };
 		E67DD8B119F607D30052A1BE /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = E67DD75D19F607D30052A1BE /* zip.c */; };
 		E67DD8B219F607D30052A1BE /* ZipArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = E67DD76019F607D30052A1BE /* ZipArchive.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E67DDA2F19F607E30052A1BE /* bee.services.debugger.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD92819F607E20052A1BE /* bee.services.debugger.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E67DDA3019F607E30052A1BE /* bee.services.debugger.md in Sources */ = {isa = PBXBuildFile; fileRef = E67DD92919F607E20052A1BE /* bee.services.debugger.md */; };
-		E67DDA3119F607E30052A1BE /* ServiceDebugger.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E67DD92B19F607E20052A1BE /* ServiceDebugger.bundle */; };
-		E67DDA3219F607E30052A1BE /* ServiceDebugger.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD92D19F607E20052A1BE /* ServiceDebugger.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E67DDA3319F607E30052A1BE /* ServiceDebugger_CPUModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD92F19F607E20052A1BE /* ServiceDebugger_CPUModel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E67DDA3419F607E30052A1BE /* ServiceDebugger_DashBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD93119F607E20052A1BE /* ServiceDebugger_DashBoard.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E67DDA3519F607E30052A1BE /* ServiceDebugger_DashCPUCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD93319F607E20052A1BE /* ServiceDebugger_DashCPUCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E67DDA3619F607E30052A1BE /* ServiceDebugger_DashCPUCell.xml in Resources */ = {isa = PBXBuildFile; fileRef = E67DD93419F607E20052A1BE /* ServiceDebugger_DashCPUCell.xml */; };
-		E67DDA3719F607E30052A1BE /* ServiceDebugger_DashMemoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD93619F607E20052A1BE /* ServiceDebugger_DashMemoryCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E67DDA3819F607E30052A1BE /* ServiceDebugger_DashMemoryCell.xml in Resources */ = {isa = PBXBuildFile; fileRef = E67DD93719F607E20052A1BE /* ServiceDebugger_DashMemoryCell.xml */; };
-		E67DDA3919F607E30052A1BE /* ServiceDebugger_DashMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD93919F607E20052A1BE /* ServiceDebugger_DashMessageCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E67DDA3A19F607E30052A1BE /* ServiceDebugger_DashMessageCell.xml in Resources */ = {isa = PBXBuildFile; fileRef = E67DD93A19F607E20052A1BE /* ServiceDebugger_DashMessageCell.xml */; };
-		E67DDA3B19F607E30052A1BE /* ServiceDebugger_DashNetworkCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD93C19F607E20052A1BE /* ServiceDebugger_DashNetworkCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E67DDA3C19F607E30052A1BE /* ServiceDebugger_DashNetworkCell.xml in Resources */ = {isa = PBXBuildFile; fileRef = E67DD93D19F607E20052A1BE /* ServiceDebugger_DashNetworkCell.xml */; };
-		E67DDA3D19F607E30052A1BE /* ServiceDebugger_Dock.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD93F19F607E20052A1BE /* ServiceDebugger_Dock.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E67DDA3E19F607E30052A1BE /* ServiceDebugger_MemoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD94119F607E20052A1BE /* ServiceDebugger_MemoryModel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E67DDA3F19F607E30052A1BE /* ServiceDebugger_MessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD94319F607E20052A1BE /* ServiceDebugger_MessageModel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E67DDA4019F607E30052A1BE /* ServiceDebugger_NetworkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD94519F607E20052A1BE /* ServiceDebugger_NetworkModel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E67DDA4119F607E30052A1BE /* ServiceDebugger_PercentageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD94719F607E20052A1BE /* ServiceDebugger_PercentageView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E67DDA4219F607E30052A1BE /* ServiceDebugger_PlotsView.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD94919F607E20052A1BE /* ServiceDebugger_PlotsView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E67DDA4319F607E30052A1BE /* ServiceDebugger_StatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD94B19F607E20052A1BE /* ServiceDebugger_StatusBar.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E67DDA4419F607E30052A1BE /* ServiceDebugger_Unit.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD94D19F607E20052A1BE /* ServiceDebugger_Unit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E67DDA4519F607E30052A1BE /* ServiceDebugger_Window.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD94F19F607E20052A1BE /* ServiceDebugger_Window.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E67DDA4C19F607E30052A1BE /* bee.services.inspector.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD95E19F607E20052A1BE /* bee.services.inspector.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E67DDA4D19F607E30052A1BE /* bee.services.inspector.md in Sources */ = {isa = PBXBuildFile; fileRef = E67DD95F19F607E20052A1BE /* bee.services.inspector.md */; };
 		E67DDA4E19F607E30052A1BE /* ServiceInspector.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E67DD96119F607E20052A1BE /* ServiceInspector.bundle */; };
@@ -567,6 +549,10 @@
 		E6B1D4851A36E3AA00400EF9 /* ChatPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B1D4811A36E3AA00400EF9 /* ChatPopView.m */; };
 		E6B3BD7819F896760028B219 /* NewsBoardTab_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B3BD7619F896760028B219 /* NewsBoardTab_iPhone.m */; };
 		E6B3BD7919F896760028B219 /* NewsBoardTab_iPhone.xml in Resources */ = {isa = PBXBuildFile; fileRef = E6B3BD7719F896760028B219 /* NewsBoardTab_iPhone.xml */; };
+		E6B405431A74D2EF009DF103 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6B405411A74D2EF009DF103 /* Default-568h@2x.png */; };
+		E6B405441A74D2EF009DF103 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E6B405421A74D2EF009DF103 /* Default.png */; };
+		E6B405471A74D2FD009DF103 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E6B405451A74D2FD009DF103 /* Icon.png */; };
+		E6B405481A74D2FD009DF103 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6B405461A74D2FD009DF103 /* Icon@2x.png */; };
 		E6B4A8B81A30014F004ED685 /* DetailBoardTab_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B4A8B61A30014F004ED685 /* DetailBoardTab_iPhone.m */; };
 		E6B4A8B91A30014F004ED685 /* DetailBoardTab_iPhone.xml in Resources */ = {isa = PBXBuildFile; fileRef = E6B4A8B71A30014F004ED685 /* DetailBoardTab_iPhone.xml */; };
 		E6B4A8BD1A3017E9004ED685 /* DetailTweetBoardTab_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B4A8BB1A3017E9004ED685 /* DetailTweetBoardTab_iPhone.m */; };
@@ -680,6 +666,11 @@
 		E61622A31A09CA8B00C89398 /* oschina.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = oschina.mm; sourceTree = "<group>"; };
 		E61622A51A09CA9F00C89398 /* oschina.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = oschina.h; sourceTree = "<group>"; };
 		E618C8551A2170AB002F2992 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		E61C2B861A74BABF004980C1 /* Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29.png"; sourceTree = "<group>"; };
+		E61C2B871A74BABF004980C1 /* Icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-50.png"; sourceTree = "<group>"; };
+		E61C2B881A74BABF004980C1 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		E61C2B891A74BABF004980C1 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		E61C2B8A1A74BABF004980C1 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
 		E62A24F21A22D88100509D85 /* SoftwareBoard_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoftwareBoard_iPhone.h; sourceTree = "<group>"; };
 		E62A24F31A22D88100509D85 /* SoftwareBoard_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoftwareBoard_iPhone.m; sourceTree = "<group>"; };
 		E62A24F41A22D88100509D85 /* SoftwareBoard_iPhone.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SoftwareBoard_iPhone.xml; sourceTree = "<group>"; };
@@ -1454,46 +1445,6 @@
 		E67DD75E19F607D30052A1BE /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
 		E67DD75F19F607D30052A1BE /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
 		E67DD76019F607D30052A1BE /* ZipArchive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZipArchive.mm; sourceTree = "<group>"; };
-		E67DD92719F607E20052A1BE /* bee.services.debugger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bee.services.debugger.h; sourceTree = "<group>"; };
-		E67DD92819F607E20052A1BE /* bee.services.debugger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bee.services.debugger.m; sourceTree = "<group>"; };
-		E67DD92919F607E20052A1BE /* bee.services.debugger.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = bee.services.debugger.md; sourceTree = "<group>"; };
-		E67DD92B19F607E20052A1BE /* ServiceDebugger.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ServiceDebugger.bundle; sourceTree = "<group>"; };
-		E67DD92C19F607E20052A1BE /* ServiceDebugger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceDebugger.h; sourceTree = "<group>"; };
-		E67DD92D19F607E20052A1BE /* ServiceDebugger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceDebugger.m; sourceTree = "<group>"; };
-		E67DD92E19F607E20052A1BE /* ServiceDebugger_CPUModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceDebugger_CPUModel.h; sourceTree = "<group>"; };
-		E67DD92F19F607E20052A1BE /* ServiceDebugger_CPUModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceDebugger_CPUModel.m; sourceTree = "<group>"; };
-		E67DD93019F607E20052A1BE /* ServiceDebugger_DashBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceDebugger_DashBoard.h; sourceTree = "<group>"; };
-		E67DD93119F607E20052A1BE /* ServiceDebugger_DashBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceDebugger_DashBoard.m; sourceTree = "<group>"; };
-		E67DD93219F607E20052A1BE /* ServiceDebugger_DashCPUCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceDebugger_DashCPUCell.h; sourceTree = "<group>"; };
-		E67DD93319F607E20052A1BE /* ServiceDebugger_DashCPUCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceDebugger_DashCPUCell.m; sourceTree = "<group>"; };
-		E67DD93419F607E20052A1BE /* ServiceDebugger_DashCPUCell.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ServiceDebugger_DashCPUCell.xml; sourceTree = "<group>"; };
-		E67DD93519F607E20052A1BE /* ServiceDebugger_DashMemoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceDebugger_DashMemoryCell.h; sourceTree = "<group>"; };
-		E67DD93619F607E20052A1BE /* ServiceDebugger_DashMemoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceDebugger_DashMemoryCell.m; sourceTree = "<group>"; };
-		E67DD93719F607E20052A1BE /* ServiceDebugger_DashMemoryCell.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ServiceDebugger_DashMemoryCell.xml; sourceTree = "<group>"; };
-		E67DD93819F607E20052A1BE /* ServiceDebugger_DashMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceDebugger_DashMessageCell.h; sourceTree = "<group>"; };
-		E67DD93919F607E20052A1BE /* ServiceDebugger_DashMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceDebugger_DashMessageCell.m; sourceTree = "<group>"; };
-		E67DD93A19F607E20052A1BE /* ServiceDebugger_DashMessageCell.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ServiceDebugger_DashMessageCell.xml; sourceTree = "<group>"; };
-		E67DD93B19F607E20052A1BE /* ServiceDebugger_DashNetworkCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceDebugger_DashNetworkCell.h; sourceTree = "<group>"; };
-		E67DD93C19F607E20052A1BE /* ServiceDebugger_DashNetworkCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceDebugger_DashNetworkCell.m; sourceTree = "<group>"; };
-		E67DD93D19F607E20052A1BE /* ServiceDebugger_DashNetworkCell.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ServiceDebugger_DashNetworkCell.xml; sourceTree = "<group>"; };
-		E67DD93E19F607E20052A1BE /* ServiceDebugger_Dock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceDebugger_Dock.h; sourceTree = "<group>"; };
-		E67DD93F19F607E20052A1BE /* ServiceDebugger_Dock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceDebugger_Dock.m; sourceTree = "<group>"; };
-		E67DD94019F607E20052A1BE /* ServiceDebugger_MemoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceDebugger_MemoryModel.h; sourceTree = "<group>"; };
-		E67DD94119F607E20052A1BE /* ServiceDebugger_MemoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceDebugger_MemoryModel.m; sourceTree = "<group>"; };
-		E67DD94219F607E20052A1BE /* ServiceDebugger_MessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceDebugger_MessageModel.h; sourceTree = "<group>"; };
-		E67DD94319F607E20052A1BE /* ServiceDebugger_MessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceDebugger_MessageModel.m; sourceTree = "<group>"; };
-		E67DD94419F607E20052A1BE /* ServiceDebugger_NetworkModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceDebugger_NetworkModel.h; sourceTree = "<group>"; };
-		E67DD94519F607E20052A1BE /* ServiceDebugger_NetworkModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceDebugger_NetworkModel.m; sourceTree = "<group>"; };
-		E67DD94619F607E20052A1BE /* ServiceDebugger_PercentageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceDebugger_PercentageView.h; sourceTree = "<group>"; };
-		E67DD94719F607E20052A1BE /* ServiceDebugger_PercentageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceDebugger_PercentageView.m; sourceTree = "<group>"; };
-		E67DD94819F607E20052A1BE /* ServiceDebugger_PlotsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceDebugger_PlotsView.h; sourceTree = "<group>"; };
-		E67DD94919F607E20052A1BE /* ServiceDebugger_PlotsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceDebugger_PlotsView.m; sourceTree = "<group>"; };
-		E67DD94A19F607E20052A1BE /* ServiceDebugger_StatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceDebugger_StatusBar.h; sourceTree = "<group>"; };
-		E67DD94B19F607E20052A1BE /* ServiceDebugger_StatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceDebugger_StatusBar.m; sourceTree = "<group>"; };
-		E67DD94C19F607E20052A1BE /* ServiceDebugger_Unit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceDebugger_Unit.h; sourceTree = "<group>"; };
-		E67DD94D19F607E20052A1BE /* ServiceDebugger_Unit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceDebugger_Unit.m; sourceTree = "<group>"; };
-		E67DD94E19F607E20052A1BE /* ServiceDebugger_Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceDebugger_Window.h; sourceTree = "<group>"; };
-		E67DD94F19F607E20052A1BE /* ServiceDebugger_Window.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceDebugger_Window.m; sourceTree = "<group>"; };
 		E67DD95D19F607E20052A1BE /* bee.services.inspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bee.services.inspector.h; sourceTree = "<group>"; };
 		E67DD95E19F607E20052A1BE /* bee.services.inspector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bee.services.inspector.m; sourceTree = "<group>"; };
 		E67DD95F19F607E20052A1BE /* bee.services.inspector.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = bee.services.inspector.md; sourceTree = "<group>"; };
@@ -1693,6 +1644,10 @@
 		E6B3BD7519F896760028B219 /* NewsBoardTab_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsBoardTab_iPhone.h; sourceTree = "<group>"; };
 		E6B3BD7619F896760028B219 /* NewsBoardTab_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsBoardTab_iPhone.m; sourceTree = "<group>"; };
 		E6B3BD7719F896760028B219 /* NewsBoardTab_iPhone.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = NewsBoardTab_iPhone.xml; sourceTree = "<group>"; };
+		E6B405411A74D2EF009DF103 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E6B405421A74D2EF009DF103 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E6B405451A74D2FD009DF103 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		E6B405461A74D2FD009DF103 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		E6B4A8B51A30014F004ED685 /* DetailBoardTab_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailBoardTab_iPhone.h; sourceTree = "<group>"; };
 		E6B4A8B61A30014F004ED685 /* DetailBoardTab_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailBoardTab_iPhone.m; sourceTree = "<group>"; };
 		E6B4A8B71A30014F004ED685 /* DetailBoardTab_iPhone.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = DetailBoardTab_iPhone.xml; sourceTree = "<group>"; };
@@ -3415,7 +3370,6 @@
 		E67DD8B319F607E20052A1BE /* services */ = {
 			isa = PBXGroup;
 			children = (
-				E67DD92619F607E20052A1BE /* bee.services.debugger */,
 				E67DD95C19F607E20052A1BE /* bee.services.inspector */,
 				E67DD96E19F607E20052A1BE /* bee.services.liveload */,
 				E67DD97D19F607E20052A1BE /* bee.services.location */,
@@ -3430,61 +3384,6 @@
 				E67DDA0B19F607E30052A1BE /* bee.services.wizard */,
 			);
 			path = services;
-			sourceTree = "<group>";
-		};
-		E67DD92619F607E20052A1BE /* bee.services.debugger */ = {
-			isa = PBXGroup;
-			children = (
-				E67DD92719F607E20052A1BE /* bee.services.debugger.h */,
-				E67DD92819F607E20052A1BE /* bee.services.debugger.m */,
-				E67DD92919F607E20052A1BE /* bee.services.debugger.md */,
-				E67DD92A19F607E20052A1BE /* source */,
-			);
-			path = bee.services.debugger;
-			sourceTree = "<group>";
-		};
-		E67DD92A19F607E20052A1BE /* source */ = {
-			isa = PBXGroup;
-			children = (
-				E67DD92B19F607E20052A1BE /* ServiceDebugger.bundle */,
-				E67DD92C19F607E20052A1BE /* ServiceDebugger.h */,
-				E67DD92D19F607E20052A1BE /* ServiceDebugger.m */,
-				E67DD92E19F607E20052A1BE /* ServiceDebugger_CPUModel.h */,
-				E67DD92F19F607E20052A1BE /* ServiceDebugger_CPUModel.m */,
-				E67DD93019F607E20052A1BE /* ServiceDebugger_DashBoard.h */,
-				E67DD93119F607E20052A1BE /* ServiceDebugger_DashBoard.m */,
-				E67DD93219F607E20052A1BE /* ServiceDebugger_DashCPUCell.h */,
-				E67DD93319F607E20052A1BE /* ServiceDebugger_DashCPUCell.m */,
-				E67DD93419F607E20052A1BE /* ServiceDebugger_DashCPUCell.xml */,
-				E67DD93519F607E20052A1BE /* ServiceDebugger_DashMemoryCell.h */,
-				E67DD93619F607E20052A1BE /* ServiceDebugger_DashMemoryCell.m */,
-				E67DD93719F607E20052A1BE /* ServiceDebugger_DashMemoryCell.xml */,
-				E67DD93819F607E20052A1BE /* ServiceDebugger_DashMessageCell.h */,
-				E67DD93919F607E20052A1BE /* ServiceDebugger_DashMessageCell.m */,
-				E67DD93A19F607E20052A1BE /* ServiceDebugger_DashMessageCell.xml */,
-				E67DD93B19F607E20052A1BE /* ServiceDebugger_DashNetworkCell.h */,
-				E67DD93C19F607E20052A1BE /* ServiceDebugger_DashNetworkCell.m */,
-				E67DD93D19F607E20052A1BE /* ServiceDebugger_DashNetworkCell.xml */,
-				E67DD93E19F607E20052A1BE /* ServiceDebugger_Dock.h */,
-				E67DD93F19F607E20052A1BE /* ServiceDebugger_Dock.m */,
-				E67DD94019F607E20052A1BE /* ServiceDebugger_MemoryModel.h */,
-				E67DD94119F607E20052A1BE /* ServiceDebugger_MemoryModel.m */,
-				E67DD94219F607E20052A1BE /* ServiceDebugger_MessageModel.h */,
-				E67DD94319F607E20052A1BE /* ServiceDebugger_MessageModel.m */,
-				E67DD94419F607E20052A1BE /* ServiceDebugger_NetworkModel.h */,
-				E67DD94519F607E20052A1BE /* ServiceDebugger_NetworkModel.m */,
-				E67DD94619F607E20052A1BE /* ServiceDebugger_PercentageView.h */,
-				E67DD94719F607E20052A1BE /* ServiceDebugger_PercentageView.m */,
-				E67DD94819F607E20052A1BE /* ServiceDebugger_PlotsView.h */,
-				E67DD94919F607E20052A1BE /* ServiceDebugger_PlotsView.m */,
-				E67DD94A19F607E20052A1BE /* ServiceDebugger_StatusBar.h */,
-				E67DD94B19F607E20052A1BE /* ServiceDebugger_StatusBar.m */,
-				E67DD94C19F607E20052A1BE /* ServiceDebugger_Unit.h */,
-				E67DD94D19F607E20052A1BE /* ServiceDebugger_Unit.m */,
-				E67DD94E19F607E20052A1BE /* ServiceDebugger_Window.h */,
-				E67DD94F19F607E20052A1BE /* ServiceDebugger_Window.m */,
-			);
-			path = source;
 			sourceTree = "<group>";
 		};
 		E67DD95C19F607E20052A1BE /* bee.services.inspector */ = {
@@ -3805,6 +3704,15 @@
 		E68BD3EC19F6546500D125B6 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				E6B405451A74D2FD009DF103 /* Icon.png */,
+				E6B405461A74D2FD009DF103 /* Icon@2x.png */,
+				E6B405411A74D2EF009DF103 /* Default-568h@2x.png */,
+				E6B405421A74D2EF009DF103 /* Default.png */,
+				E61C2B861A74BABF004980C1 /* Icon-29.png */,
+				E61C2B871A74BABF004980C1 /* Icon-50.png */,
+				E61C2B881A74BABF004980C1 /* Icon-72.png */,
+				E61C2B891A74BABF004980C1 /* Icon-Small.png */,
+				E61C2B8A1A74BABF004980C1 /* Icon-Small@2x.png */,
 				E65374A81A480ECE0025CC25 /* bubbleMine@2x.png */,
 				E65374A91A480ECE0025CC25 /* bubbleSomeone@2x.png */,
 				E696AD421A40487F008DD458 /* man.png */,
@@ -4163,10 +4071,8 @@
 			files = (
 				E68BD40219F6546500D125B6 /* icon-comments.png in Resources */,
 				E600773D1A3F25F0009D9A04 /* FavoriteBoard_iPhone.xml in Resources */,
-				E67DDA3119F607E30052A1BE /* ServiceDebugger.bundle in Resources */,
 				E6F416441A1DC03F00D200F7 /* cell_bg_header@2x.png in Resources */,
 				E68BD40519F6546500D125B6 /* menu-button@2x.png in Resources */,
-				E67DDA3C19F607E30052A1BE /* ServiceDebugger_DashNetworkCell.xml in Resources */,
 				E6F416431A1DC03F00D200F7 /* cell_bg_footer@2x.png in Resources */,
 				E6EB3CAB1A3848A9006A1C6D /* item_info_pushed_collect_btn@2x.png in Resources */,
 				E68BD40E19F6546500D125B6 /* splash-logo-small@2x.png in Resources */,
@@ -4181,24 +4087,27 @@
 				E66BA43F19FE3A64004016A2 /* footer_search_icon@2x.png in Resources */,
 				E6B928FF19FBA9DC001EA47A /* PersonalBoard_iPhone.xml in Resources */,
 				E6C48AA31A21C3A9009E7087 /* profile_img_bg@2x.png in Resources */,
-				E67DDA3A19F607E30052A1BE /* ServiceDebugger_DashMessageCell.xml in Resources */,
 				E6EB3CA31A38334C006A1C6D /* EditMessageBoard_iPhone.xml in Resources */,
 				E6A007261A401AE30004145D /* FriendListBoardTab_iPhone.xml in Resources */,
 				E68BD41019F6546500D125B6 /* splash-slogan@2x.png in Resources */,
 				E60077421A3F260B009D9A04 /* UserDetailBoard_iPhone.xml in Resources */,
 				E6682C0D1A3BF31F00724414 /* PersonalActiveCell_iPhone.xml in Resources */,
+				E6B405431A74D2EF009DF103 /* Default-568h@2x.png in Resources */,
+				E61C2B901A74BABF004980C1 /* Icon-Small@2x.png in Resources */,
 				E6DE0A8F1A14946D00FFCA52 /* browser_baritem_forward@2x.png in Resources */,
 				E6C48AA21A21C3A9009E7087 /* body_cont_bg@2x.png in Resources */,
 				E696AD411A4047ED008DD458 /* FriendCell_iPhone.xml in Resources */,
 				E69B50921A38A1ED009EDF2A /* 001@2x.png in Resources */,
 				E6A449361A258244003004E6 /* PostItemCell_iPhone.xml in Resources */,
 				E6A0071C1A400ABF0004145D /* FavoriteBoardTab_iPhone.xml in Resources */,
+				E61C2B8C1A74BABF004980C1 /* Icon-29.png in Resources */,
 				E6C7E54D1A205D070048D2CD /* setting@2x.png in Resources */,
 				E6F416451A1DC03F00D200F7 /* cell_bg_single@2x.png in Resources */,
 				E66BA44819FE4BE8004016A2 /* searcher_new_search_icon@2x.png in Resources */,
 				E67DDA7719F607E30052A1BE /* ServiceShare.bundle in Resources */,
 				E6B881E21A528E6A007F4DAD /* FootLoader.xml in Resources */,
 				E69AA2011A45D5CE0092594E /* UserDetailBoardTab_iPhone.xml in Resources */,
+				E61C2B8F1A74BABF004980C1 /* Icon-Small.png in Resources */,
 				E67DDAA519F607E30052A1BE /* ServiceWizard_PhotoCell.xml in Resources */,
 				E68BD40319F6546500D125B6 /* icon-hearts.png in Resources */,
 				E6F4163D1A1DBFC100D200F7 /* SignInBoard_iPhone.xml in Resources */,
@@ -4210,6 +4119,7 @@
 				E66BA44719FE4BE8004016A2 /* searcher_new_search_box@2x.png in Resources */,
 				E696AD451A40487F008DD458 /* woman.png in Resources */,
 				E62A250A1A22E14400509D85 /* SoftwareCatalogCell_iPhone.xml in Resources */,
+				E6B405471A74D2FD009DF103 /* Icon.png in Resources */,
 				E6DD25581A31B9E8001F1BB1 /* CommentsBoard_iPhone.xml in Resources */,
 				E696AD441A40487F008DD458 /* man.png in Resources */,
 				E65374AB1A480ECE0025CC25 /* bubbleSomeone@2x.png in Resources */,
@@ -4220,12 +4130,12 @@
 				E6FB7FC21A3DF90800433623 /* microcomment@2x.png in Resources */,
 				E66BA44D19FE4C4C004016A2 /* SearchBoardTab_iPhone.xml in Resources */,
 				E66A17361A39942600013F41 /* NewQuestionBoard_iPhone.xml in Resources */,
-				E67DDA3819F607E30052A1BE /* ServiceDebugger_DashMemoryCell.xml in Resources */,
 				E66BA43B19FDEE5F004016A2 /* SearchBoard_iPhone.xml in Resources */,
 				E68BD40B19F6546500D125B6 /* navigation-bar@2x.png in Resources */,
 				E68BD40F19F6546500D125B6 /* splash-logo@2x.png in Resources */,
 				E6DD255D1A31BA0C001F1BB1 /* SimpleCommentCell_iPhone.xml in Resources */,
 				E67DDAA219F607E30052A1BE /* ServiceWizard_Board.xml in Resources */,
+				E61C2B8D1A74BABF004980C1 /* Icon-50.png in Resources */,
 				E60077471A3F261C009D9A04 /* FriendProfileBoard_iPhone.xml in Resources */,
 				E68BD40019F6546500D125B6 /* arrow-down@2x.png in Resources */,
 				E67DDA6619F607E30052A1BE /* ServiceLogger_Cell.xml in Resources */,
@@ -4239,13 +4149,13 @@
 				E6682C121A3BF34700724414 /* PersonalMessageCell_iPhone.xml in Resources */,
 				E60F5F741A13684F00237DED /* accsessory_arrow_right@2x.png in Resources */,
 				E6B881E71A528E7C007F4DAD /* PullLoader.xml in Resources */,
+				E61C2B8E1A74BABF004980C1 /* Icon-72.png in Resources */,
 				E6EB3CA91A3848A9006A1C6D /* item_info_collection_btn@2x.png in Resources */,
 				E66BA44419FE498B004016A2 /* SearchBarCell_iPhone.xml in Resources */,
 				E64F9BC01A524D4400C2DED0 /* CommonNoResultCell.xml in Resources */,
 				E62A24F61A22D88100509D85 /* SoftwareBoard_iPhone.xml in Resources */,
 				E65374AA1A480ECE0025CC25 /* bubbleMine@2x.png in Resources */,
 				E66BA43E19FE3A64004016A2 /* footer_search_active_icon@2x.png in Resources */,
-				E67DDA3619F607E30052A1BE /* ServiceDebugger_DashCPUCell.xml in Resources */,
 				E658B2471A0B901200DB7302 /* ItemBoardCell_iPhone.xml in Resources */,
 				E6EB3CAA1A3848A9006A1C6D /* item_info_disabled_btn@2x.png in Resources */,
 				E6C7E54F1A205D070048D2CD /* weibo@2x.png in Resources */,
@@ -4269,8 +4179,10 @@
 				E67DDA6419F607E30052A1BE /* ServiceLogger_Board.xml in Resources */,
 				E6B9290919FBAAED001EA47A /* TweetBoardTab_iPhone.xml in Resources */,
 				E67DDA7A19F607E30052A1BE /* ServiceShare_AuthorizeBoard.xml in Resources */,
+				E6B405441A74D2EF009DF103 /* Default.png in Resources */,
 				E6DE0A901A14946D00FFCA52 /* browser_baritem_refresh@2x.png in Resources */,
 				E67DD46019F607450052A1BE /* Images.xcassets in Resources */,
+				E6B405481A74D2FD009DF103 /* Icon@2x.png in Resources */,
 				E6C48AA61A21C986009E7087 /* cell_bg_content@2x.png in Resources */,
 				E68BD40119F6546500D125B6 /* contact-them@2x.png in Resources */,
 				E6C7E55B1A20B61F0048D2CD /* MiscBoardCell_iPhone.xml in Resources */,
@@ -4330,7 +4242,6 @@
 				E67DD81719F607D30052A1BE /* BeeUIQuery+Miscellaneous.m in Sources */,
 				E67DD87719F607D30052A1BE /* Bee_HTTPConfig.m in Sources */,
 				E67DD89C19F607D30052A1BE /* FMDatabaseQueue.m in Sources */,
-				E67DDA3919F607E30052A1BE /* ServiceDebugger_DashMessageCell.m in Sources */,
 				E6503BEE1A35BB50009D9980 /* TestCell.m in Sources */,
 				E6DC36D11A15B10600E2BEEE /* UIViewController+ErrorTips.m in Sources */,
 				E67DD77D19F607D30052A1BE /* Bee_UIStack.m in Sources */,
@@ -4362,8 +4273,6 @@
 				E67DD89719F607D30052A1BE /* ASIInputStream.m in Sources */,
 				E67DD8AD19F607D30052A1BE /* CXMLNode_XPathExtensions.m in Sources */,
 				E67DD88D19F607D30052A1BE /* Bee_Socket.m in Sources */,
-				E67DDA3F19F607E30052A1BE /* ServiceDebugger_MessageModel.m in Sources */,
-				E67DDA3519F607E30052A1BE /* ServiceDebugger_DashCPUCell.m in Sources */,
 				E67DD81419F607D30052A1BE /* BeeUIQuery+Effects.m in Sources */,
 				E67DD76519F607D30052A1BE /* Bee_MVC.mm in Sources */,
 				E67DD76219F607D30052A1BE /* Bee_Package.mm in Sources */,
@@ -4405,7 +4314,6 @@
 				E67DD86019F607D30052A1BE /* NSData+BeeExtension.mm in Sources */,
 				E67DD78F19F607D30052A1BE /* Bee_UIStyle.m in Sources */,
 				E6682C111A3BF34700724414 /* PersonalMessageCell_iPhone.m in Sources */,
-				E67DDA3D19F607E30052A1BE /* ServiceDebugger_Dock.m in Sources */,
 				E67DD76819F607D30052A1BE /* Bee_MessageController.mm in Sources */,
 				E67DDA6A19F607E30052A1BE /* bee.services.network.md in Sources */,
 				E67DD83419F607D30052A1BE /* Bee_UITemplateParserXMLImpl_v1.m in Sources */,
@@ -4416,7 +4324,6 @@
 				E67DDA8019F607E30052A1BE /* ServiceShare_SinaWeibo_API.m in Sources */,
 				E67DD81B19F607D30052A1BE /* BeeUIQuery+Value.m in Sources */,
 				E67DDA7C19F607E30052A1BE /* ServiceShare_Window.m in Sources */,
-				E67DDA4319F607E30052A1BE /* ServiceDebugger_StatusBar.m in Sources */,
 				E67DD80619F607D30052A1BE /* UIView+BeeUILayout.m in Sources */,
 				E67DD85019F607D30052A1BE /* NSDictionary+BeeActiveRecord.m in Sources */,
 				E67DD7C219F607D30052A1BE /* Bee_UIImagePickerController.m in Sources */,
@@ -4460,9 +4367,7 @@
 				E67DD7B819F607D30052A1BE /* Bee_UIAccelerometer.m in Sources */,
 				E60077461A3F261C009D9A04 /* FriendProfileBoard_iPhone.m in Sources */,
 				E67DD7D519F607D30052A1BE /* Bee_UIToolbar.m in Sources */,
-				E67DDA2F19F607E30052A1BE /* bee.services.debugger.m in Sources */,
 				E67DD87519F607D30052A1BE /* Bee_HTTPClient.m in Sources */,
-				E67DDA3419F607E30052A1BE /* ServiceDebugger_DashBoard.m in Sources */,
 				E67DD80719F607D30052A1BE /* UIViewController+BeeUILayout.m in Sources */,
 				E67DD7C519F607D30052A1BE /* Bee_UILabel.m in Sources */,
 				E67DD84519F607D30052A1BE /* NSObject+BeeKeychain.mm in Sources */,
@@ -4481,7 +4386,6 @@
 				E6E3524119F79FDC00180AB7 /* NewsBoard_iPhone.m in Sources */,
 				E67DD82C19F607D30052A1BE /* Bee_UITemplateMediaQuery.m in Sources */,
 				E67DD82019F607D30052A1BE /* Bee_UITransitionPush.m in Sources */,
-				E67DDA4019F607E30052A1BE /* ServiceDebugger_NetworkModel.m in Sources */,
 				E67DD81919F607D30052A1BE /* BeeUIQuery+Transform.m in Sources */,
 				E67DD7A819F607D30052A1BE /* Bee_UIAnimationBounce.m in Sources */,
 				E67DD76619F607D30052A1BE /* Bee_Controller.mm in Sources */,
@@ -4574,7 +4478,6 @@
 				E62A24F51A22D88100509D85 /* SoftwareBoard_iPhone.m in Sources */,
 				E67DD88919F607D30052A1BE /* ProcessingResponse.m in Sources */,
 				E67DD7D219F607D30052A1BE /* Bee_UITableView.m in Sources */,
-				E67DDA4419F607E30052A1BE /* ServiceDebugger_Unit.m in Sources */,
 				E67DD83219F607D30052A1BE /* Bee_UITemplateParserXML.m in Sources */,
 				E67DDA6219F607E30052A1BE /* ServiceLogger.m in Sources */,
 				E6EF57D51A373A5B006B7E4B /* MessageListModel.m in Sources */,
@@ -4603,9 +4506,7 @@
 				E61622A41A09CA8B00C89398 /* oschina.mm in Sources */,
 				E67DD86E19F607D30052A1BE /* NSString+BeeExtension.mm in Sources */,
 				E67DD8A719F607D30052A1BE /* CXMLElement_CreationExtensions.m in Sources */,
-				E67DDA3219F607E30052A1BE /* ServiceDebugger.m in Sources */,
 				E6F4163C1A1DBFC100D200F7 /* SignInBoard_iPhone.m in Sources */,
-				E67DDA4519F607E30052A1BE /* ServiceDebugger_Window.m in Sources */,
 				E67DDA7019F607E30052A1BE /* bee.services.network.server.md in Sources */,
 				E6B1D4851A36E3AA00400EF9 /* ChatPopView.m in Sources */,
 				E6352AD61A24DD2F00AE688C /* BlogListModel.m in Sources */,
@@ -4684,7 +4585,6 @@
 				E67DDA4F19F607E30052A1BE /* ServiceInspector.m in Sources */,
 				E67DD7E919F607D30052A1BE /* Bee_UIFootLoader.m in Sources */,
 				E67DDAA619F607E30052A1BE /* ServiceWizard_TemplateCell.m in Sources */,
-				E67DDA3719F607E30052A1BE /* ServiceDebugger_DashMemoryCell.m in Sources */,
 				E64F9BBF1A524D4400C2DED0 /* CommonNoResultCell.m in Sources */,
 				E67DD89B19F607D30052A1BE /* FMDatabasePool.m in Sources */,
 				E67DD7C619F607D30052A1BE /* Bee_UIMenuController.m in Sources */,
@@ -4727,7 +4627,6 @@
 				E67DD89919F607D30052A1BE /* FMDatabase.m in Sources */,
 				E6856E961A0A791C00C899CD /* NewsListModel.m in Sources */,
 				E67DD8AF19F607D30052A1BE /* mztools.c in Sources */,
-				E67DDA3319F607E30052A1BE /* ServiceDebugger_CPUModel.m in Sources */,
 				E67DD7C919F607D30052A1BE /* Bee_UIPageViewController.m in Sources */,
 				E67DD81C19F607D30052A1BE /* Bee_UITransition.m in Sources */,
 				E67DD7C819F607D30052A1BE /* Bee_UIPageControl.m in Sources */,
@@ -4737,14 +4636,12 @@
 				E67DD84019F607D30052A1BE /* Bee_CacheProtocol.mm in Sources */,
 				E67DD82219F607D30052A1BE /* UIViewController+Transition.m in Sources */,
 				E67DD8A219F607D30052A1BE /* CXHTMLDocument.m in Sources */,
-				E67DDA4119F607E30052A1BE /* ServiceDebugger_PercentageView.m in Sources */,
 				E6352AD91A24DEB400AE688C /* PostModel.m in Sources */,
 				E67DDA5519F607E30052A1BE /* bee.services.liveload.m in Sources */,
 				E67DD7AD19F607D30052A1BE /* Bee_UIDataBinding.m in Sources */,
 				E67DDA8619F607E30052A1BE /* ServiceShare_TencentWeibo.m in Sources */,
 				E67DD87219F607D30052A1BE /* Bee_Network.m in Sources */,
 				E67DDA7519F607E30052A1BE /* ServicePush_Notification.m in Sources */,
-				E67DDA3B19F607E30052A1BE /* ServiceDebugger_DashNetworkCell.m in Sources */,
 				E67DD84A19F607D30052A1BE /* Bee_ActiveRecord.m in Sources */,
 				E6503BF21A35BB89009D9980 /* BeCollectionCell.m in Sources */,
 				E67DD79C19F607D30052A1BE /* UITextView+BeeUIStyle.m in Sources */,
@@ -4762,7 +4659,6 @@
 				E6DD25521A31B284001F1BB1 /* DetailCommentBoard_iPhone.m in Sources */,
 				E67DD7DD19F607D30052A1BE /* UIView+Metrics.m in Sources */,
 				E67DD7D719F607D30052A1BE /* Bee_UIView.m in Sources */,
-				E67DDA4219F607E30052A1BE /* ServiceDebugger_PlotsView.m in Sources */,
 				E67DD85A19F607D30052A1BE /* Bee_SystemInfo.mm in Sources */,
 				E67DDA5919F607E30052A1BE /* ServiceLiveload_Category.m in Sources */,
 				E67DD7A719F607D30052A1BE /* Bee_UIAnimationAlpha.m in Sources */,
@@ -4791,7 +4687,6 @@
 				E67DD45B19F607450052A1BE /* AppBoard_iPhone.m in Sources */,
 				E67DD86B19F607D30052A1BE /* NSObject+BeeTypeConversion.mm in Sources */,
 				E67DDA8519F607E30052A1BE /* bee.services.share.tencentweibo.md in Sources */,
-				E67DDA3E19F607E30052A1BE /* ServiceDebugger_MemoryModel.m in Sources */,
 				E67DDA6519F607E30052A1BE /* ServiceLogger_Cell.m in Sources */,
 				E67DD77119F607D30052A1BE /* Bee_Model.mm in Sources */,
 				E67DD8B119F607D30052A1BE /* zip.c in Sources */,
@@ -4803,7 +4698,6 @@
 				E67DDA5A19F607E30052A1BE /* ServiceLiveload_Hook.m in Sources */,
 				E67DD84F19F607D30052A1BE /* NSArray+BeeActiveRecord.m in Sources */,
 				E67DD85419F607D30052A1BE /* Bee_Foundation.mm in Sources */,
-				E67DDA3019F607E30052A1BE /* bee.services.debugger.md in Sources */,
 				E67DD7B619F607D30052A1BE /* UINavigationBar+BeeExtension.m in Sources */,
 				E67DD77719F607D30052A1BE /* UIColor+BeeExtension.m in Sources */,
 				E67DD7EC19F607D30052A1BE /* Bee_UITipsView.m in Sources */,
@@ -4909,11 +4803,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = NO;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Yu Zhang (B433KLJHBH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Yu Zhang (B433KLJHBH)";
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_PREFIX_HEADER = BeeOSChina/BeeOSChina.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -4923,6 +4816,7 @@
 					"$(PROJECT_DIR)/BeeOSChina/framework",
 				);
 				INFOPLIST_FILE = BeeOSChina/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4930,7 +4824,8 @@
 					"$(PROJECT_DIR)/BeeOSChina/services/bee.services.share.weixin/vendor/WeixinSDK",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "d9e54b5e-4e75-45d1-8e7b-2a8f8702f935";
+				PROVISIONING_PROFILE = "3ab4221d-18d9-4bab-88c6-c7735ab85349";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/BeeOSChina/view_iPhone/Component/common";
 				VALID_ARCHS = "armv7 arm64";
 			};
@@ -4940,11 +4835,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = NO;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Yu Zhang (B433KLJHBH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Yu Zhang (B433KLJHBH)";
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_PREFIX_HEADER = BeeOSChina/BeeOSChina.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -4954,6 +4848,7 @@
 					"$(PROJECT_DIR)/BeeOSChina/framework",
 				);
 				INFOPLIST_FILE = BeeOSChina/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4962,7 +4857,8 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "d9e54b5e-4e75-45d1-8e7b-2a8f8702f935";
+				PROVISIONING_PROFILE = "3ab4221d-18d9-4bab-88c6-c7735ab85349";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/BeeOSChina/view_iPhone/Component/common";
 				VALID_ARCHS = "armv7 arm64";
 			};
