@@ -46,6 +46,13 @@
 		E65374AF1A480F5C0025CC25 /* MessageBubbleBoard_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = E65374AD1A480F5C0025CC25 /* MessageBubbleBoard_iPhone.m */; };
 		E658B2461A0B901200DB7302 /* ItemBoardCell_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = E658B2441A0B901200DB7302 /* ItemBoardCell_iPhone.m */; };
 		E658B2471A0B901200DB7302 /* ItemBoardCell_iPhone.xml in Resources */ = {isa = PBXBuildFile; fileRef = E658B2451A0B901200DB7302 /* ItemBoardCell_iPhone.xml */; };
+		E65F71621A75E47F0037DEE1 /* bee.services.liveload.m in Sources */ = {isa = PBXBuildFile; fileRef = E65F71551A75E47F0037DEE1 /* bee.services.liveload.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E65F71631A75E47F0037DEE1 /* bee.services.liveload.md in Sources */ = {isa = PBXBuildFile; fileRef = E65F71561A75E47F0037DEE1 /* bee.services.liveload.md */; };
+		E65F71641A75E47F0037DEE1 /* ServiceLiveload.m in Sources */ = {isa = PBXBuildFile; fileRef = E65F71591A75E47F0037DEE1 /* ServiceLiveload.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E65F71651A75E47F0037DEE1 /* ServiceLiveload_Border.m in Sources */ = {isa = PBXBuildFile; fileRef = E65F715B1A75E47F0037DEE1 /* ServiceLiveload_Border.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E65F71661A75E47F0037DEE1 /* ServiceLiveload_Category.m in Sources */ = {isa = PBXBuildFile; fileRef = E65F715D1A75E47F0037DEE1 /* ServiceLiveload_Category.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E65F71671A75E47F0037DEE1 /* ServiceLiveload_Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = E65F715F1A75E47F0037DEE1 /* ServiceLiveload_Hook.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E65F71681A75E47F0037DEE1 /* ServiceLiveload_Watcher.m in Sources */ = {isa = PBXBuildFile; fileRef = E65F71611A75E47F0037DEE1 /* ServiceLiveload_Watcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E6682C0C1A3BF31F00724414 /* PersonalActiveCell_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = E6682C0A1A3BF31F00724414 /* PersonalActiveCell_iPhone.m */; };
 		E6682C0D1A3BF31F00724414 /* PersonalActiveCell_iPhone.xml in Resources */ = {isa = PBXBuildFile; fileRef = E6682C0B1A3BF31F00724414 /* PersonalActiveCell_iPhone.xml */; };
 		E6682C111A3BF34700724414 /* PersonalMessageCell_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = E6682C0F1A3BF34700724414 /* PersonalMessageCell_iPhone.m */; };
@@ -423,35 +430,9 @@
 		E67DD8B019F607D30052A1BE /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = E67DD75B19F607D30052A1BE /* unzip.c */; };
 		E67DD8B119F607D30052A1BE /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = E67DD75D19F607D30052A1BE /* zip.c */; };
 		E67DD8B219F607D30052A1BE /* ZipArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = E67DD76019F607D30052A1BE /* ZipArchive.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E67DDA4C19F607E30052A1BE /* bee.services.inspector.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD95E19F607E20052A1BE /* bee.services.inspector.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E67DDA4D19F607E30052A1BE /* bee.services.inspector.md in Sources */ = {isa = PBXBuildFile; fileRef = E67DD95F19F607E20052A1BE /* bee.services.inspector.md */; };
-		E67DDA4E19F607E30052A1BE /* ServiceInspector.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E67DD96119F607E20052A1BE /* ServiceInspector.bundle */; };
-		E67DDA4F19F607E30052A1BE /* ServiceInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD96319F607E20052A1BE /* ServiceInspector.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E67DDA5019F607E30052A1BE /* ServiceInspector_Border.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD96519F607E20052A1BE /* ServiceInspector_Border.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E67DDA5119F607E30052A1BE /* ServiceInspector_Dock.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD96719F607E20052A1BE /* ServiceInspector_Dock.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E67DDA5219F607E30052A1BE /* ServiceInspector_Indicator.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD96919F607E20052A1BE /* ServiceInspector_Indicator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E67DDA5319F607E30052A1BE /* ServiceInspector_Window.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD96B19F607E20052A1BE /* ServiceInspector_Window.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E67DDA5419F607E30052A1BE /* ServiceInspector_WindowHook.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD96D19F607E20052A1BE /* ServiceInspector_WindowHook.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E67DDA5519F607E30052A1BE /* bee.services.liveload.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD97019F607E20052A1BE /* bee.services.liveload.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E67DDA5619F607E30052A1BE /* bee.services.liveload.md in Sources */ = {isa = PBXBuildFile; fileRef = E67DD97119F607E20052A1BE /* bee.services.liveload.md */; };
-		E67DDA5719F607E30052A1BE /* ServiceLiveload.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD97419F607E20052A1BE /* ServiceLiveload.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E67DDA5819F607E30052A1BE /* ServiceLiveload_Border.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD97619F607E20052A1BE /* ServiceLiveload_Border.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E67DDA5919F607E30052A1BE /* ServiceLiveload_Category.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD97819F607E20052A1BE /* ServiceLiveload_Category.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E67DDA5A19F607E30052A1BE /* ServiceLiveload_Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD97A19F607E20052A1BE /* ServiceLiveload_Hook.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E67DDA5B19F607E30052A1BE /* ServiceLiveload_Watcher.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD97C19F607E20052A1BE /* ServiceLiveload_Watcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E67DDA5C19F607E30052A1BE /* bee.services.location.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD97F19F607E20052A1BE /* bee.services.location.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E67DDA5D19F607E30052A1BE /* bee.services.location.md in Sources */ = {isa = PBXBuildFile; fileRef = E67DD98019F607E20052A1BE /* bee.services.location.md */; };
 		E67DDA5E19F607E30052A1BE /* ServiceLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD98319F607E20052A1BE /* ServiceLocation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E67DDA5F19F607E30052A1BE /* bee.services.logger.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD98619F607E20052A1BE /* bee.services.logger.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E67DDA6019F607E30052A1BE /* bee.services.logger.md in Sources */ = {isa = PBXBuildFile; fileRef = E67DD98719F607E20052A1BE /* bee.services.logger.md */; };
-		E67DDA6119F607E30052A1BE /* ServiceLogger.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E67DD98919F607E20052A1BE /* ServiceLogger.bundle */; };
-		E67DDA6219F607E30052A1BE /* ServiceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD98B19F607E20052A1BE /* ServiceLogger.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E67DDA6319F607E30052A1BE /* ServiceLogger_Board.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD98D19F607E20052A1BE /* ServiceLogger_Board.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E67DDA6419F607E30052A1BE /* ServiceLogger_Board.xml in Resources */ = {isa = PBXBuildFile; fileRef = E67DD98E19F607E20052A1BE /* ServiceLogger_Board.xml */; };
-		E67DDA6519F607E30052A1BE /* ServiceLogger_Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD99019F607E20052A1BE /* ServiceLogger_Cell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E67DDA6619F607E30052A1BE /* ServiceLogger_Cell.xml in Resources */ = {isa = PBXBuildFile; fileRef = E67DD99119F607E20052A1BE /* ServiceLogger_Cell.xml */; };
-		E67DDA6719F607E30052A1BE /* ServiceLogger_Dock.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD99319F607E20052A1BE /* ServiceLogger_Dock.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E67DDA6819F607E30052A1BE /* ServiceLogger_Window.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD99519F607E20052A1BE /* ServiceLogger_Window.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E67DDA6919F607E30052A1BE /* bee.services.network.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD99819F607E20052A1BE /* bee.services.network.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E67DDA6A19F607E30052A1BE /* bee.services.network.md in Sources */ = {isa = PBXBuildFile; fileRef = E67DD99919F607E20052A1BE /* bee.services.network.md */; };
 		E67DDA6B19F607E30052A1BE /* ServiceNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = E67DD99C19F607E20052A1BE /* ServiceNetwork.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -708,6 +689,19 @@
 		E658B2431A0B901200DB7302 /* ItemBoardCell_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemBoardCell_iPhone.h; sourceTree = "<group>"; };
 		E658B2441A0B901200DB7302 /* ItemBoardCell_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemBoardCell_iPhone.m; sourceTree = "<group>"; };
 		E658B2451A0B901200DB7302 /* ItemBoardCell_iPhone.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ItemBoardCell_iPhone.xml; sourceTree = "<group>"; };
+		E65F71541A75E47F0037DEE1 /* bee.services.liveload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bee.services.liveload.h; sourceTree = "<group>"; };
+		E65F71551A75E47F0037DEE1 /* bee.services.liveload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bee.services.liveload.m; sourceTree = "<group>"; };
+		E65F71561A75E47F0037DEE1 /* bee.services.liveload.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = bee.services.liveload.md; sourceTree = "<group>"; };
+		E65F71581A75E47F0037DEE1 /* ServiceLiveload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceLiveload.h; sourceTree = "<group>"; };
+		E65F71591A75E47F0037DEE1 /* ServiceLiveload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceLiveload.m; sourceTree = "<group>"; };
+		E65F715A1A75E47F0037DEE1 /* ServiceLiveload_Border.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceLiveload_Border.h; sourceTree = "<group>"; };
+		E65F715B1A75E47F0037DEE1 /* ServiceLiveload_Border.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceLiveload_Border.m; sourceTree = "<group>"; };
+		E65F715C1A75E47F0037DEE1 /* ServiceLiveload_Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceLiveload_Category.h; sourceTree = "<group>"; };
+		E65F715D1A75E47F0037DEE1 /* ServiceLiveload_Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceLiveload_Category.m; sourceTree = "<group>"; };
+		E65F715E1A75E47F0037DEE1 /* ServiceLiveload_Hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceLiveload_Hook.h; sourceTree = "<group>"; };
+		E65F715F1A75E47F0037DEE1 /* ServiceLiveload_Hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceLiveload_Hook.m; sourceTree = "<group>"; };
+		E65F71601A75E47F0037DEE1 /* ServiceLiveload_Watcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceLiveload_Watcher.h; sourceTree = "<group>"; };
+		E65F71611A75E47F0037DEE1 /* ServiceLiveload_Watcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceLiveload_Watcher.m; sourceTree = "<group>"; };
 		E6682C091A3BF31F00724414 /* PersonalActiveCell_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalActiveCell_iPhone.h; sourceTree = "<group>"; };
 		E6682C0A1A3BF31F00724414 /* PersonalActiveCell_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalActiveCell_iPhone.m; sourceTree = "<group>"; };
 		E6682C0B1A3BF31F00724414 /* PersonalActiveCell_iPhone.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PersonalActiveCell_iPhone.xml; sourceTree = "<group>"; };
@@ -1445,56 +1439,11 @@
 		E67DD75E19F607D30052A1BE /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
 		E67DD75F19F607D30052A1BE /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
 		E67DD76019F607D30052A1BE /* ZipArchive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZipArchive.mm; sourceTree = "<group>"; };
-		E67DD95D19F607E20052A1BE /* bee.services.inspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bee.services.inspector.h; sourceTree = "<group>"; };
-		E67DD95E19F607E20052A1BE /* bee.services.inspector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bee.services.inspector.m; sourceTree = "<group>"; };
-		E67DD95F19F607E20052A1BE /* bee.services.inspector.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = bee.services.inspector.md; sourceTree = "<group>"; };
-		E67DD96119F607E20052A1BE /* ServiceInspector.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ServiceInspector.bundle; sourceTree = "<group>"; };
-		E67DD96219F607E20052A1BE /* ServiceInspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceInspector.h; sourceTree = "<group>"; };
-		E67DD96319F607E20052A1BE /* ServiceInspector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceInspector.m; sourceTree = "<group>"; };
-		E67DD96419F607E20052A1BE /* ServiceInspector_Border.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceInspector_Border.h; sourceTree = "<group>"; };
-		E67DD96519F607E20052A1BE /* ServiceInspector_Border.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceInspector_Border.m; sourceTree = "<group>"; };
-		E67DD96619F607E20052A1BE /* ServiceInspector_Dock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceInspector_Dock.h; sourceTree = "<group>"; };
-		E67DD96719F607E20052A1BE /* ServiceInspector_Dock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceInspector_Dock.m; sourceTree = "<group>"; };
-		E67DD96819F607E20052A1BE /* ServiceInspector_Indicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceInspector_Indicator.h; sourceTree = "<group>"; };
-		E67DD96919F607E20052A1BE /* ServiceInspector_Indicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceInspector_Indicator.m; sourceTree = "<group>"; };
-		E67DD96A19F607E20052A1BE /* ServiceInspector_Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceInspector_Window.h; sourceTree = "<group>"; };
-		E67DD96B19F607E20052A1BE /* ServiceInspector_Window.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceInspector_Window.m; sourceTree = "<group>"; };
-		E67DD96C19F607E20052A1BE /* ServiceInspector_WindowHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceInspector_WindowHook.h; sourceTree = "<group>"; };
-		E67DD96D19F607E20052A1BE /* ServiceInspector_WindowHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceInspector_WindowHook.m; sourceTree = "<group>"; };
-		E67DD96F19F607E20052A1BE /* bee.services.liveload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bee.services.liveload.h; sourceTree = "<group>"; };
-		E67DD97019F607E20052A1BE /* bee.services.liveload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bee.services.liveload.m; sourceTree = "<group>"; };
-		E67DD97119F607E20052A1BE /* bee.services.liveload.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = bee.services.liveload.md; sourceTree = "<group>"; };
-		E67DD97319F607E20052A1BE /* ServiceLiveload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceLiveload.h; sourceTree = "<group>"; };
-		E67DD97419F607E20052A1BE /* ServiceLiveload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceLiveload.m; sourceTree = "<group>"; };
-		E67DD97519F607E20052A1BE /* ServiceLiveload_Border.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceLiveload_Border.h; sourceTree = "<group>"; };
-		E67DD97619F607E20052A1BE /* ServiceLiveload_Border.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceLiveload_Border.m; sourceTree = "<group>"; };
-		E67DD97719F607E20052A1BE /* ServiceLiveload_Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceLiveload_Category.h; sourceTree = "<group>"; };
-		E67DD97819F607E20052A1BE /* ServiceLiveload_Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceLiveload_Category.m; sourceTree = "<group>"; };
-		E67DD97919F607E20052A1BE /* ServiceLiveload_Hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceLiveload_Hook.h; sourceTree = "<group>"; };
-		E67DD97A19F607E20052A1BE /* ServiceLiveload_Hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceLiveload_Hook.m; sourceTree = "<group>"; };
-		E67DD97B19F607E20052A1BE /* ServiceLiveload_Watcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceLiveload_Watcher.h; sourceTree = "<group>"; };
-		E67DD97C19F607E20052A1BE /* ServiceLiveload_Watcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceLiveload_Watcher.m; sourceTree = "<group>"; };
 		E67DD97E19F607E20052A1BE /* bee.services.location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bee.services.location.h; sourceTree = "<group>"; };
 		E67DD97F19F607E20052A1BE /* bee.services.location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bee.services.location.m; sourceTree = "<group>"; };
 		E67DD98019F607E20052A1BE /* bee.services.location.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = bee.services.location.md; sourceTree = "<group>"; };
 		E67DD98219F607E20052A1BE /* ServiceLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceLocation.h; sourceTree = "<group>"; };
 		E67DD98319F607E20052A1BE /* ServiceLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceLocation.m; sourceTree = "<group>"; };
-		E67DD98519F607E20052A1BE /* bee.services.logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bee.services.logger.h; sourceTree = "<group>"; };
-		E67DD98619F607E20052A1BE /* bee.services.logger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bee.services.logger.m; sourceTree = "<group>"; };
-		E67DD98719F607E20052A1BE /* bee.services.logger.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = bee.services.logger.md; sourceTree = "<group>"; };
-		E67DD98919F607E20052A1BE /* ServiceLogger.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ServiceLogger.bundle; sourceTree = "<group>"; };
-		E67DD98A19F607E20052A1BE /* ServiceLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceLogger.h; sourceTree = "<group>"; };
-		E67DD98B19F607E20052A1BE /* ServiceLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceLogger.m; sourceTree = "<group>"; };
-		E67DD98C19F607E20052A1BE /* ServiceLogger_Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceLogger_Board.h; sourceTree = "<group>"; };
-		E67DD98D19F607E20052A1BE /* ServiceLogger_Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceLogger_Board.m; sourceTree = "<group>"; };
-		E67DD98E19F607E20052A1BE /* ServiceLogger_Board.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ServiceLogger_Board.xml; sourceTree = "<group>"; };
-		E67DD98F19F607E20052A1BE /* ServiceLogger_Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceLogger_Cell.h; sourceTree = "<group>"; };
-		E67DD99019F607E20052A1BE /* ServiceLogger_Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceLogger_Cell.m; sourceTree = "<group>"; };
-		E67DD99119F607E20052A1BE /* ServiceLogger_Cell.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ServiceLogger_Cell.xml; sourceTree = "<group>"; };
-		E67DD99219F607E20052A1BE /* ServiceLogger_Dock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceLogger_Dock.h; sourceTree = "<group>"; };
-		E67DD99319F607E20052A1BE /* ServiceLogger_Dock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceLogger_Dock.m; sourceTree = "<group>"; };
-		E67DD99419F607E20052A1BE /* ServiceLogger_Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceLogger_Window.h; sourceTree = "<group>"; };
-		E67DD99519F607E20052A1BE /* ServiceLogger_Window.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceLogger_Window.m; sourceTree = "<group>"; };
 		E67DD99719F607E20052A1BE /* bee.services.network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bee.services.network.h; sourceTree = "<group>"; };
 		E67DD99819F607E20052A1BE /* bee.services.network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bee.services.network.m; sourceTree = "<group>"; };
 		E67DD99919F607E20052A1BE /* bee.services.network.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = bee.services.network.md; sourceTree = "<group>"; };
@@ -1862,6 +1811,34 @@
 				E6BAD21D1A539D9E0032DFFA /* URLHandler.m */,
 			);
 			name = common;
+			sourceTree = "<group>";
+		};
+		E65F71531A75E47F0037DEE1 /* bee.services.liveload */ = {
+			isa = PBXGroup;
+			children = (
+				E65F71541A75E47F0037DEE1 /* bee.services.liveload.h */,
+				E65F71551A75E47F0037DEE1 /* bee.services.liveload.m */,
+				E65F71561A75E47F0037DEE1 /* bee.services.liveload.md */,
+				E65F71571A75E47F0037DEE1 /* source */,
+			);
+			path = bee.services.liveload;
+			sourceTree = "<group>";
+		};
+		E65F71571A75E47F0037DEE1 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				E65F71581A75E47F0037DEE1 /* ServiceLiveload.h */,
+				E65F71591A75E47F0037DEE1 /* ServiceLiveload.m */,
+				E65F715A1A75E47F0037DEE1 /* ServiceLiveload_Border.h */,
+				E65F715B1A75E47F0037DEE1 /* ServiceLiveload_Border.m */,
+				E65F715C1A75E47F0037DEE1 /* ServiceLiveload_Category.h */,
+				E65F715D1A75E47F0037DEE1 /* ServiceLiveload_Category.m */,
+				E65F715E1A75E47F0037DEE1 /* ServiceLiveload_Hook.h */,
+				E65F715F1A75E47F0037DEE1 /* ServiceLiveload_Hook.m */,
+				E65F71601A75E47F0037DEE1 /* ServiceLiveload_Watcher.h */,
+				E65F71611A75E47F0037DEE1 /* ServiceLiveload_Watcher.m */,
+			);
+			path = source;
 			sourceTree = "<group>";
 		};
 		E67DD41B19F607450052A1BE = {
@@ -3370,10 +3347,8 @@
 		E67DD8B319F607E20052A1BE /* services */ = {
 			isa = PBXGroup;
 			children = (
-				E67DD95C19F607E20052A1BE /* bee.services.inspector */,
-				E67DD96E19F607E20052A1BE /* bee.services.liveload */,
+				E65F71531A75E47F0037DEE1 /* bee.services.liveload */,
 				E67DD97D19F607E20052A1BE /* bee.services.location */,
-				E67DD98419F607E20052A1BE /* bee.services.logger */,
 				E67DD99619F607E20052A1BE /* bee.services.network */,
 				E67DD99D19F607E20052A1BE /* bee.services.network.browser */,
 				E67DD9A419F607E20052A1BE /* bee.services.network.server */,
@@ -3384,65 +3359,6 @@
 				E67DDA0B19F607E30052A1BE /* bee.services.wizard */,
 			);
 			path = services;
-			sourceTree = "<group>";
-		};
-		E67DD95C19F607E20052A1BE /* bee.services.inspector */ = {
-			isa = PBXGroup;
-			children = (
-				E67DD95D19F607E20052A1BE /* bee.services.inspector.h */,
-				E67DD95E19F607E20052A1BE /* bee.services.inspector.m */,
-				E67DD95F19F607E20052A1BE /* bee.services.inspector.md */,
-				E67DD96019F607E20052A1BE /* source */,
-			);
-			path = bee.services.inspector;
-			sourceTree = "<group>";
-		};
-		E67DD96019F607E20052A1BE /* source */ = {
-			isa = PBXGroup;
-			children = (
-				E67DD96119F607E20052A1BE /* ServiceInspector.bundle */,
-				E67DD96219F607E20052A1BE /* ServiceInspector.h */,
-				E67DD96319F607E20052A1BE /* ServiceInspector.m */,
-				E67DD96419F607E20052A1BE /* ServiceInspector_Border.h */,
-				E67DD96519F607E20052A1BE /* ServiceInspector_Border.m */,
-				E67DD96619F607E20052A1BE /* ServiceInspector_Dock.h */,
-				E67DD96719F607E20052A1BE /* ServiceInspector_Dock.m */,
-				E67DD96819F607E20052A1BE /* ServiceInspector_Indicator.h */,
-				E67DD96919F607E20052A1BE /* ServiceInspector_Indicator.m */,
-				E67DD96A19F607E20052A1BE /* ServiceInspector_Window.h */,
-				E67DD96B19F607E20052A1BE /* ServiceInspector_Window.m */,
-				E67DD96C19F607E20052A1BE /* ServiceInspector_WindowHook.h */,
-				E67DD96D19F607E20052A1BE /* ServiceInspector_WindowHook.m */,
-			);
-			path = source;
-			sourceTree = "<group>";
-		};
-		E67DD96E19F607E20052A1BE /* bee.services.liveload */ = {
-			isa = PBXGroup;
-			children = (
-				E67DD96F19F607E20052A1BE /* bee.services.liveload.h */,
-				E67DD97019F607E20052A1BE /* bee.services.liveload.m */,
-				E67DD97119F607E20052A1BE /* bee.services.liveload.md */,
-				E67DD97219F607E20052A1BE /* source */,
-			);
-			path = bee.services.liveload;
-			sourceTree = "<group>";
-		};
-		E67DD97219F607E20052A1BE /* source */ = {
-			isa = PBXGroup;
-			children = (
-				E67DD97319F607E20052A1BE /* ServiceLiveload.h */,
-				E67DD97419F607E20052A1BE /* ServiceLiveload.m */,
-				E67DD97519F607E20052A1BE /* ServiceLiveload_Border.h */,
-				E67DD97619F607E20052A1BE /* ServiceLiveload_Border.m */,
-				E67DD97719F607E20052A1BE /* ServiceLiveload_Category.h */,
-				E67DD97819F607E20052A1BE /* ServiceLiveload_Category.m */,
-				E67DD97919F607E20052A1BE /* ServiceLiveload_Hook.h */,
-				E67DD97A19F607E20052A1BE /* ServiceLiveload_Hook.m */,
-				E67DD97B19F607E20052A1BE /* ServiceLiveload_Watcher.h */,
-				E67DD97C19F607E20052A1BE /* ServiceLiveload_Watcher.m */,
-			);
-			path = source;
 			sourceTree = "<group>";
 		};
 		E67DD97D19F607E20052A1BE /* bee.services.location */ = {
@@ -3461,37 +3377,6 @@
 			children = (
 				E67DD98219F607E20052A1BE /* ServiceLocation.h */,
 				E67DD98319F607E20052A1BE /* ServiceLocation.m */,
-			);
-			path = source;
-			sourceTree = "<group>";
-		};
-		E67DD98419F607E20052A1BE /* bee.services.logger */ = {
-			isa = PBXGroup;
-			children = (
-				E67DD98519F607E20052A1BE /* bee.services.logger.h */,
-				E67DD98619F607E20052A1BE /* bee.services.logger.m */,
-				E67DD98719F607E20052A1BE /* bee.services.logger.md */,
-				E67DD98819F607E20052A1BE /* source */,
-			);
-			path = bee.services.logger;
-			sourceTree = "<group>";
-		};
-		E67DD98819F607E20052A1BE /* source */ = {
-			isa = PBXGroup;
-			children = (
-				E67DD98919F607E20052A1BE /* ServiceLogger.bundle */,
-				E67DD98A19F607E20052A1BE /* ServiceLogger.h */,
-				E67DD98B19F607E20052A1BE /* ServiceLogger.m */,
-				E67DD98C19F607E20052A1BE /* ServiceLogger_Board.h */,
-				E67DD98D19F607E20052A1BE /* ServiceLogger_Board.m */,
-				E67DD98E19F607E20052A1BE /* ServiceLogger_Board.xml */,
-				E67DD98F19F607E20052A1BE /* ServiceLogger_Cell.h */,
-				E67DD99019F607E20052A1BE /* ServiceLogger_Cell.m */,
-				E67DD99119F607E20052A1BE /* ServiceLogger_Cell.xml */,
-				E67DD99219F607E20052A1BE /* ServiceLogger_Dock.h */,
-				E67DD99319F607E20052A1BE /* ServiceLogger_Dock.m */,
-				E67DD99419F607E20052A1BE /* ServiceLogger_Window.h */,
-				E67DD99519F607E20052A1BE /* ServiceLogger_Window.m */,
 			);
 			path = source;
 			sourceTree = "<group>";
@@ -4126,7 +4011,6 @@
 				E6B928FA19FBA96D001EA47A /* TweetBoard_iPhone.xml in Resources */,
 				E6A007211A401AB40004145D /* FriendListBoard_iPhone.xml in Resources */,
 				E68BD40A19F6546500D125B6 /* navigation-back@2x.png in Resources */,
-				E67DDA6119F607E30052A1BE /* ServiceLogger.bundle in Resources */,
 				E6FB7FC21A3DF90800433623 /* microcomment@2x.png in Resources */,
 				E66BA44D19FE4C4C004016A2 /* SearchBoardTab_iPhone.xml in Resources */,
 				E66A17361A39942600013F41 /* NewQuestionBoard_iPhone.xml in Resources */,
@@ -4138,7 +4022,6 @@
 				E61C2B8D1A74BABF004980C1 /* Icon-50.png in Resources */,
 				E60077471A3F261C009D9A04 /* FriendProfileBoard_iPhone.xml in Resources */,
 				E68BD40019F6546500D125B6 /* arrow-down@2x.png in Resources */,
-				E67DDA6619F607E30052A1BE /* ServiceLogger_Cell.xml in Resources */,
 				E6EB3C9D1A3825A2006A1C6D /* EditCommentBoard_iPhone.xml in Resources */,
 				E6EB3CB21A3854CC006A1C6D /* NewTweetBoard_iPhone.xml in Resources */,
 				E69B50961A38A2A7009EDF2A /* questionBlue@2x.png in Resources */,
@@ -4162,7 +4045,6 @@
 				E6819CD01A287E40000A3C2C /* TweetCell_iPhone.xml in Resources */,
 				E60077381A3F25BF009D9A04 /* FavoriteCell_iPhone.xml in Resources */,
 				E67DD45819F607450052A1BE /* BeeOSChina-Prefix.pch in Resources */,
-				E67DDA4E19F607E30052A1BE /* ServiceInspector.bundle in Resources */,
 				E68BD40619F6546500D125B6 /* menu-icon-blue@2x.png in Resources */,
 				E6C48AA41A21C3A9009E7087 /* profile_refresh_camera_icon@2x.png in Resources */,
 				E6C3F14F1A30BC040016DA5A /* TweetImageCell_iPhone.xml in Resources */,
@@ -4176,7 +4058,6 @@
 				E6F416471A1DC03F00D200F7 /* log_in_user_name_icon@2x.png in Resources */,
 				E6DE0A8E1A14946D00FFCA52 /* browser_baritem_back@2x.png in Resources */,
 				E6F416461A1DC03F00D200F7 /* log_in_key_icon@2x.png in Resources */,
-				E67DDA6419F607E30052A1BE /* ServiceLogger_Board.xml in Resources */,
 				E6B9290919FBAAED001EA47A /* TweetBoardTab_iPhone.xml in Resources */,
 				E67DDA7A19F607E30052A1BE /* ServiceShare_AuthorizeBoard.xml in Resources */,
 				E6B405441A74D2EF009DF103 /* Default.png in Resources */,
@@ -4272,7 +4153,9 @@
 				E67DD7E619F607D30052A1BE /* UIView+Wireframe.m in Sources */,
 				E67DD89719F607D30052A1BE /* ASIInputStream.m in Sources */,
 				E67DD8AD19F607D30052A1BE /* CXMLNode_XPathExtensions.m in Sources */,
+				E65F71681A75E47F0037DEE1 /* ServiceLiveload_Watcher.m in Sources */,
 				E67DD88D19F607D30052A1BE /* Bee_Socket.m in Sources */,
+				E65F71671A75E47F0037DEE1 /* ServiceLiveload_Hook.m in Sources */,
 				E67DD81419F607D30052A1BE /* BeeUIQuery+Effects.m in Sources */,
 				E67DD76519F607D30052A1BE /* Bee_MVC.mm in Sources */,
 				E67DD76219F607D30052A1BE /* Bee_Package.mm in Sources */,
@@ -4302,6 +4185,7 @@
 				E67DD7C719F607D30052A1BE /* Bee_UINavigationBar.m in Sources */,
 				E67DD7CB19F607D30052A1BE /* Bee_UIProgressView.m in Sources */,
 				E67DD89E19F607D30052A1BE /* JSONKit.m in Sources */,
+				E65F71631A75E47F0037DEE1 /* bee.services.liveload.md in Sources */,
 				E67DD7CD19F607D30052A1BE /* Bee_UISearchBar.m in Sources */,
 				E67DD7B919F607D30052A1BE /* Bee_UIActionSheet.m in Sources */,
 				E67DD7A219F607D30052A1BE /* CSSStyleSelector.m in Sources */,
@@ -4315,6 +4199,7 @@
 				E67DD78F19F607D30052A1BE /* Bee_UIStyle.m in Sources */,
 				E6682C111A3BF34700724414 /* PersonalMessageCell_iPhone.m in Sources */,
 				E67DD76819F607D30052A1BE /* Bee_MessageController.mm in Sources */,
+				E65F71661A75E47F0037DEE1 /* ServiceLiveload_Category.m in Sources */,
 				E67DDA6A19F607E30052A1BE /* bee.services.network.md in Sources */,
 				E67DD83419F607D30052A1BE /* Bee_UITemplateParserXMLImpl_v1.m in Sources */,
 				E67DD7A619F607D30052A1BE /* Bee_UIAnimation.m in Sources */,
@@ -4333,10 +4218,8 @@
 				E67DD7FE19F607D30052A1BE /* BeeUILayout+CSSElement.m in Sources */,
 				E67DD84919F607D30052A1BE /* Bee_ActiveProtocol.m in Sources */,
 				E6DBBE171A47CCC000CAA8F0 /* NoticeRoutine.m in Sources */,
-				E67DDA5719F607E30052A1BE /* ServiceLiveload.m in Sources */,
 				E67DDA7619F607E30052A1BE /* bee.services.share.m in Sources */,
 				E67DDA8219F607E30052A1BE /* ServiceShare_SinaWeibo_Config.m in Sources */,
-				E67DDA4D19F607E30052A1BE /* bee.services.inspector.md in Sources */,
 				E67DDA5E19F607E30052A1BE /* ServiceLocation.m in Sources */,
 				E67DDA8319F607E30052A1BE /* ServiceShare_SinaWeibo_Post.m in Sources */,
 				E67DD87319F607D30052A1BE /* Bee_HTTP.mm in Sources */,
@@ -4377,12 +4260,11 @@
 				E67DD76C19F607D30052A1BE /* BeeMessage+BeeActiveRecord.mm in Sources */,
 				E6352AD31A24D96100AE688C /* PostListModel.m in Sources */,
 				E67DD7D319F607D30052A1BE /* Bee_UITextField.m in Sources */,
+				E65F71651A75E47F0037DEE1 /* ServiceLiveload_Border.m in Sources */,
 				E6DC36CC1A15A3C100E2BEEE /* DetailArticleBoard_iPhone.m in Sources */,
 				E66BA43A19FDEE5F004016A2 /* SearchBoard_iPhone.m in Sources */,
 				E67DD81319F607D30052A1BE /* BeeUIQuery+Dimensions.m in Sources */,
 				E67DD7D419F607D30052A1BE /* Bee_UITextView.m in Sources */,
-				E67DDA6319F607E30052A1BE /* ServiceLogger_Board.m in Sources */,
-				E67DDA6819F607E30052A1BE /* ServiceLogger_Window.m in Sources */,
 				E6E3524119F79FDC00180AB7 /* NewsBoard_iPhone.m in Sources */,
 				E67DD82C19F607D30052A1BE /* Bee_UITemplateMediaQuery.m in Sources */,
 				E67DD82019F607D30052A1BE /* Bee_UITransitionPush.m in Sources */,
@@ -4393,11 +4275,9 @@
 				E67DD85619F607D30052A1BE /* Bee_Performance.mm in Sources */,
 				E67DD86119F607D30052A1BE /* NSDate+BeeExtension.mm in Sources */,
 				E67DD86C19F607D30052A1BE /* NSSet+BeeExtension.mm in Sources */,
-				E67DDA5B19F607E30052A1BE /* ServiceLiveload_Watcher.m in Sources */,
 				E67DD81119F607D30052A1BE /* BeeUIQuery+AJAX.m in Sources */,
 				E67DD7F919F607D30052A1BE /* Bee_UILayoutBuilder.m in Sources */,
 				E67DD8AB19F607D30052A1BE /* CXMLNode_CreationExtensions.m in Sources */,
-				E67DDA5119F607E30052A1BE /* ServiceInspector_Dock.m in Sources */,
 				E67DD86D19F607D30052A1BE /* NSString+BeeEmoji.m in Sources */,
 				E67DD7FA19F607D30052A1BE /* Bee_UILayoutBuilder_v1.m in Sources */,
 				E67DD7C019F607D30052A1BE /* Bee_UIImageCache.m in Sources */,
@@ -4410,7 +4290,6 @@
 				E6EB3CA21A38334C006A1C6D /* EditMessageBoard_iPhone.m in Sources */,
 				E67DD7F419F607D30052A1BE /* Bee_UISignalBus.m in Sources */,
 				E67DD79B19F607D30052A1BE /* UITextField+BeeUIStyle.m in Sources */,
-				E67DDA6719F607E30052A1BE /* ServiceLogger_Dock.m in Sources */,
 				E67DD89819F607D30052A1BE /* ASINetworkQueue.m in Sources */,
 				E67DD85919F607D30052A1BE /* Bee_Singleton.mm in Sources */,
 				E67DD80F19F607D30052A1BE /* BeeUIScrollView+LayoutParser.m in Sources */,
@@ -4433,14 +4312,12 @@
 				E658B2461A0B901200DB7302 /* ItemBoardCell_iPhone.m in Sources */,
 				E67DD8A619F607D30052A1BE /* CXMLElement.m in Sources */,
 				E67DD7D119F607D30052A1BE /* Bee_UITabBar.m in Sources */,
-				E67DDA6019F607E30052A1BE /* bee.services.logger.md in Sources */,
 				E67DD7A319F607D30052A1BE /* CSSStyleSheet.m in Sources */,
 				E69AA2001A45D5CE0092594E /* UserDetailBoardTab_iPhone.m in Sources */,
 				E67DD86919F607D30052A1BE /* NSObject+BeeTicker.mm in Sources */,
 				E67DD80A19F607D30052A1BE /* UILabel+LayoutParser.m in Sources */,
 				E67DD7B119F607D30052A1BE /* UISwitch+UIDataBinding.m in Sources */,
 				E6DD255C1A31BA0C001F1BB1 /* SimpleCommentCell_iPhone.m in Sources */,
-				E67DDA5219F607E30052A1BE /* ServiceInspector_Indicator.m in Sources */,
 				E67DD82119F607D30052A1BE /* UIView+Transition.m in Sources */,
 				E67DD83A19F607D30052A1BE /* UITextView+XMLParser.m in Sources */,
 				E67DD76B19F607D30052A1BE /* BeeMessage+BackwardCompatible.mm in Sources */,
@@ -4479,7 +4356,6 @@
 				E67DD88919F607D30052A1BE /* ProcessingResponse.m in Sources */,
 				E67DD7D219F607D30052A1BE /* Bee_UITableView.m in Sources */,
 				E67DD83219F607D30052A1BE /* Bee_UITemplateParserXML.m in Sources */,
-				E67DDA6219F607E30052A1BE /* ServiceLogger.m in Sources */,
 				E6EF57D51A373A5B006B7E4B /* MessageListModel.m in Sources */,
 				E67DD7CC19F607D30052A1BE /* Bee_UIScrollView.m in Sources */,
 				E6B928FE19FBA9DC001EA47A /* PersonalBoard_iPhone.m in Sources */,
@@ -4489,6 +4365,7 @@
 				E6EB3C9C1A3825A2006A1C6D /* EditCommentBoard_iPhone.m in Sources */,
 				E67DD80019F607D30052A1BE /* UIImageView+BeeUILayout.m in Sources */,
 				E67DD77619F607D30052A1BE /* Bee_UIMetrics.m in Sources */,
+				E65F71621A75E47F0037DEE1 /* bee.services.liveload.m in Sources */,
 				E67DD81219F607D30052A1BE /* BeeUIQuery+CSS.m in Sources */,
 				E67DD76A19F607D30052A1BE /* Bee_Routine.mm in Sources */,
 				E67DD85719F607D30052A1BE /* Bee_Runtime.mm in Sources */,
@@ -4511,10 +4388,8 @@
 				E6B1D4851A36E3AA00400EF9 /* ChatPopView.m in Sources */,
 				E6352AD61A24DD2F00AE688C /* BlogListModel.m in Sources */,
 				E67DD82E19F607D30052A1BE /* Bee_UITemplateParser.m in Sources */,
-				E67DDA5619F607E30052A1BE /* bee.services.liveload.md in Sources */,
 				E67DD77219F607D30052A1BE /* Bee_UIApplication.m in Sources */,
 				E6B4A8B81A30014F004ED685 /* DetailBoardTab_iPhone.m in Sources */,
-				E67DDA5419F607E30052A1BE /* ServiceInspector_WindowHook.m in Sources */,
 				E67DD83F19F607D30052A1BE /* Bee_Cache.mm in Sources */,
 				E67DD84D19F607D30052A1BE /* Bee_SQLITE.m in Sources */,
 				E67DD79819F607D30052A1BE /* UILabel+BeeUIStyle.m in Sources */,
@@ -4522,15 +4397,12 @@
 				E67DDA8419F607E30052A1BE /* bee.services.share.tencentweibo.m in Sources */,
 				E6EF57DB1A373E97006B7E4B /* UserInfoModel.m in Sources */,
 				E67DD7E119F607D30052A1BE /* UIView+SwipeGesture.m in Sources */,
-				E67DDA5019F607E30052A1BE /* ServiceInspector_Border.m in Sources */,
 				E67DD7DB19F607D30052A1BE /* UIView+LifeCycle.m in Sources */,
 				E67DD87119F607D30052A1BE /* Bee_LanguageSetting.m in Sources */,
 				E60077411A3F260B009D9A04 /* UserDetailBoard_iPhone.m in Sources */,
 				E6819CCF1A287E40000A3C2C /* TweetCell_iPhone.m in Sources */,
 				E67DD79919F607D30052A1BE /* UIPageControl+BeeUIStyle.m in Sources */,
-				E67DDA5819F607E30052A1BE /* ServiceLiveload_Border.m in Sources */,
 				E67DD80C19F607D30052A1BE /* UITextField+LayoutParser.m in Sources */,
-				E67DDA4C19F607E30052A1BE /* bee.services.inspector.m in Sources */,
 				E67DD83B19F607D30052A1BE /* UIView+XMLParser.m in Sources */,
 				E6819CD41A287E6D000A3C2C /* DetailTweetBoard_iPhone.m in Sources */,
 				E60077371A3F25BF009D9A04 /* FavoriteCell_iPhone.m in Sources */,
@@ -4559,6 +4431,7 @@
 				E67DD77F19F607D30052A1BE /* BeeUIBoard+BackwardCompatible.m in Sources */,
 				E67DD77819F607D30052A1BE /* UIFont+BeeExtension.m in Sources */,
 				E67DD81619F607D30052A1BE /* BeeUIQuery+Manipulation.m in Sources */,
+				E65F71641A75E47F0037DEE1 /* ServiceLiveload.m in Sources */,
 				E67DD82319F607D30052A1BE /* Bee_ViewModel.mm in Sources */,
 				E67DD87819F607D30052A1BE /* Bee_HTTPRequest.m in Sources */,
 				E67DD78B19F607D30052A1BE /* UIViewController+Title.m in Sources */,
@@ -4582,7 +4455,6 @@
 				E67DD88A19F607D30052A1BE /* ProcessingRoutes.m in Sources */,
 				E67DD7BC19F607D30052A1BE /* Bee_UIAlertView.m in Sources */,
 				E67DD8A819F607D30052A1BE /* CXMLElement_ElementTreeExtensions.m in Sources */,
-				E67DDA4F19F607E30052A1BE /* ServiceInspector.m in Sources */,
 				E67DD7E919F607D30052A1BE /* Bee_UIFootLoader.m in Sources */,
 				E67DDAA619F607E30052A1BE /* ServiceWizard_TemplateCell.m in Sources */,
 				E64F9BBF1A524D4400C2DED0 /* CommonNoResultCell.m in Sources */,
@@ -4612,7 +4484,6 @@
 				E67DD80319F607D30052A1BE /* UIScrollView+BeeUILayout.m in Sources */,
 				E67DD7DA19F607D30052A1BE /* UIView+HoldGesture.m in Sources */,
 				E67DDA6F19F607E30052A1BE /* bee.services.network.server.m in Sources */,
-				E67DDA5F19F607E30052A1BE /* bee.services.logger.m in Sources */,
 				E67DD78319F607D30052A1BE /* BeeUIBoard+Popover.m in Sources */,
 				E62A24FA1A22D94C00509D85 /* SoftwareBoardTab_iPhone.m in Sources */,
 				E67DD83819F607D30052A1BE /* UIScrollView+XMLParser.m in Sources */,
@@ -4637,7 +4508,6 @@
 				E67DD82219F607D30052A1BE /* UIViewController+Transition.m in Sources */,
 				E67DD8A219F607D30052A1BE /* CXHTMLDocument.m in Sources */,
 				E6352AD91A24DEB400AE688C /* PostModel.m in Sources */,
-				E67DDA5519F607E30052A1BE /* bee.services.liveload.m in Sources */,
 				E67DD7AD19F607D30052A1BE /* Bee_UIDataBinding.m in Sources */,
 				E67DDA8619F607E30052A1BE /* ServiceShare_TencentWeibo.m in Sources */,
 				E67DD87219F607D30052A1BE /* Bee_Network.m in Sources */,
@@ -4660,7 +4530,6 @@
 				E67DD7DD19F607D30052A1BE /* UIView+Metrics.m in Sources */,
 				E67DD7D719F607D30052A1BE /* Bee_UIView.m in Sources */,
 				E67DD85A19F607D30052A1BE /* Bee_SystemInfo.mm in Sources */,
-				E67DDA5919F607E30052A1BE /* ServiceLiveload_Category.m in Sources */,
 				E67DD7A719F607D30052A1BE /* Bee_UIAnimationAlpha.m in Sources */,
 				E67DD44219F607450052A1BE /* main.m in Sources */,
 				E67DD88419F607D30052A1BE /* Bee_HTTPUtility2.m in Sources */,
@@ -4687,15 +4556,12 @@
 				E67DD45B19F607450052A1BE /* AppBoard_iPhone.m in Sources */,
 				E67DD86B19F607D30052A1BE /* NSObject+BeeTypeConversion.mm in Sources */,
 				E67DDA8519F607E30052A1BE /* bee.services.share.tencentweibo.md in Sources */,
-				E67DDA6519F607E30052A1BE /* ServiceLogger_Cell.m in Sources */,
 				E67DD77119F607D30052A1BE /* Bee_Model.mm in Sources */,
 				E67DD8B119F607D30052A1BE /* zip.c in Sources */,
 				E67DD7C419F607D30052A1BE /* Bee_UIKeyboard.m in Sources */,
 				E67DD87A19F607D30052A1BE /* NSObject+BeeHTTPRequest.m in Sources */,
 				E67DD89319F607D30052A1BE /* ASIDataDecompressor.m in Sources */,
 				E6DD25571A31B9E8001F1BB1 /* CommentsBoard_iPhone.m in Sources */,
-				E67DDA5319F607E30052A1BE /* ServiceInspector_Window.m in Sources */,
-				E67DDA5A19F607E30052A1BE /* ServiceLiveload_Hook.m in Sources */,
 				E67DD84F19F607D30052A1BE /* NSArray+BeeActiveRecord.m in Sources */,
 				E67DD85419F607D30052A1BE /* Bee_Foundation.mm in Sources */,
 				E67DD7B619F607D30052A1BE /* UINavigationBar+BeeExtension.m in Sources */,
@@ -4805,8 +4671,8 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_MODULES = NO;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = NO;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Yu Zhang (B433KLJHBH)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Yu Zhang (B433KLJHBH)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yu Zhang (FBGSSNTGPZ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yu Zhang (FBGSSNTGPZ)";
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_PREFIX_HEADER = BeeOSChina/BeeOSChina.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -4824,7 +4690,7 @@
 					"$(PROJECT_DIR)/BeeOSChina/services/bee.services.share.weixin/vendor/WeixinSDK",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "3ab4221d-18d9-4bab-88c6-c7735ab85349";
+				PROVISIONING_PROFILE = "a33f87d0-9e42-49a3-8871-e5ded5e8c805";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/BeeOSChina/view_iPhone/Component/common";
 				VALID_ARCHS = "armv7 arm64";
@@ -4837,8 +4703,8 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_MODULES = NO;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = NO;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Yu Zhang (B433KLJHBH)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Yu Zhang (B433KLJHBH)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yu Zhang (FBGSSNTGPZ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yu Zhang (FBGSSNTGPZ)";
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_PREFIX_HEADER = BeeOSChina/BeeOSChina.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -4857,7 +4723,7 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "3ab4221d-18d9-4bab-88c6-c7735ab85349";
+				PROVISIONING_PROFILE = "a33f87d0-9e42-49a3-8871-e5ded5e8c805";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/BeeOSChina/view_iPhone/Component/common";
 				VALID_ARCHS = "armv7 arm64";

@@ -19,6 +19,7 @@
 #import "bee.services.share.tencentweibo.h"
 //#import "bee.services.share.weixin.h"
 #import "URLHandler.h"
+#import "UserModel.h"
 
 #pragma mark -
 
@@ -163,6 +164,11 @@ ON_SIGNAL3( BeeUINavigationBar, RIGHT_TOUCHED, signal )
     POST* post = self.articleModel.post;
     
     if(post == nil) return;
+    
+    if([UserModel online] == NO)
+    {
+        [bee.ui.appBoard presentSuccessTips:@"请先登录!"];
+    }
     
     if(post.favorite)
     {

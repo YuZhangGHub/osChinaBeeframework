@@ -21,6 +21,7 @@
 #import "AppBoard_iPhone.h"
 #import "URLHandler.h"
 #import "Tool.h"
+#import "UserModel.h"
 
 #pragma mark -
 
@@ -132,6 +133,11 @@ ON_SIGNAL3( BeeUINavigationBar, RIGHT_TOUCHED, signal )
     SOFTWARE* software = self.detailSoftwareModel.software;
     
     if(software == nil) return;
+    
+    if([UserModel online] == NO)
+    {
+        [bee.ui.appBoard presentSuccessTips:@"请先登录!"];
+    }
     
     if(software.favorite)
     {

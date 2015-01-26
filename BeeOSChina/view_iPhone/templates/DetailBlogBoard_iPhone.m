@@ -22,6 +22,7 @@
 #import "AppBoard_iPhone.h"
 #import "ShareRoutine.h"
 #import "URLHandler.h"
+#import "UserModel.h"
 
 #pragma mark -
 
@@ -166,6 +167,11 @@ ON_SIGNAL3( BeeUINavigationBar, RIGHT_TOUCHED, signal )
     BLOG* blog = self.articleModel.blog;
     
     if(blog == nil) return;
+    
+    if([UserModel online] == NO)
+    {
+        [bee.ui.appBoard presentSuccessTips:@"请先登录!"];
+    }
     
     if(blog.favorite)
     {

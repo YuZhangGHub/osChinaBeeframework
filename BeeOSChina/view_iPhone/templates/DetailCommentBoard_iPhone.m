@@ -20,6 +20,7 @@
 #import "UserModel.h"
 #import "PersonalBoard_iPhone.h"
 #import "AppBoard_iPhone.h"
+#import "UserModel.h"
 
 #pragma mark -
 
@@ -121,6 +122,11 @@ ON_SIGNAL3( BeeUINavigationBar, LEFT_TOUCHED, signal )
 
 ON_SIGNAL3( BeeUINavigationBar, RIGHT_TOUCHED, signal )
 {
+    if([UserModel online] == NO)
+    {
+        [bee.ui.appBoard presentSuccessTips:@"请先登录!"];
+    }
+    
     if( _type == NormalComment)
     {
         [self replyComment];

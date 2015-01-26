@@ -90,6 +90,11 @@ ON_SIGNAL3( BeeUINavigationBar, RIGHT_TOUCHED, signal )
         return;
     }
     
+    if([UserModel online] == NO)
+    {
+        [bee.ui.appBoard presentSuccessTips:@"请先登录!"];
+    }
+    
     NSString* msg = $(@"comment").text;
     
     if ([msg isEqualToString:@""]) {

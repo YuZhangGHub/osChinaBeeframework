@@ -25,6 +25,7 @@
 #import "ShareRoutine.h"
 #import "bee.services.share.sinaweibo.h"
 #import "bee.services.share.tencentweibo.h"
+#import "UserModel.h"
 //#import "bee.services.share.weixin.h"
 #import "URLHandler.h"
 
@@ -173,6 +174,11 @@ ON_SIGNAL3( BeeUINavigationBar, RIGHT_TOUCHED, signal )
     DetailNewsModel* news = self.articleModel;
     
     if(news == nil) return;
+    
+    if([UserModel online] == NO)
+    {
+        [bee.ui.appBoard presentSuccessTips:@"请先登录!"];
+    }
     
     if(news.favorite)
     {

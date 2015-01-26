@@ -314,6 +314,11 @@ ON_SIGNAL3( BeeUINavigationBar, LEFT_TOUCHED, signal )
 ON_SIGNAL3( BeeUINavigationBar, RIGHT_TOUCHED, signal )
 {
     {
+        if([UserModel online] == NO)
+        {
+            [bee.ui.appBoard presentSuccessTips:@"请先登录!"];
+        }
+        
         if(_source == FromTweet)
         {
             [self pubTweetCommentInDetail];

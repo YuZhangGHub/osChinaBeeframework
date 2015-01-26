@@ -94,6 +94,11 @@ ON_SIGNAL3( BeeUINavigationBar, RIGHT_TOUCHED, signal )
         return;
     }
     
+    if([UserModel online] == NO)
+    {
+        [bee.ui.appBoard presentSuccessTips:@"请先登录!"];
+    }
+    
     [API_POST_PUB cancel];
     
     API_POST_PUB * api = [API_POST_PUB apiWithResponder:self];
