@@ -124,10 +124,8 @@
     
     // config your pagination
     
-    int curBegin = self.pages * 20;
-    int curEnd   = curBegin + 20;
-    api.INPUT( @"pageIndex", [NSString stringWithFormat:@"%d", curBegin]);
-    api.INPUT( @"pageSize", [NSString stringWithFormat:@"%d", curEnd] );
+    api.INPUT( @"pageIndex", [NSString stringWithFormat:@"%d", _pages]);
+    api.INPUT( @"pageSize", [NSString stringWithFormat:@"%d", 20] );
     api.INPUT( @"uid", [NSString stringWithFormat:@"%d", self.uid]);
     
     @weakify( api );

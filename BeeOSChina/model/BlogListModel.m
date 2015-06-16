@@ -136,10 +136,8 @@
     
     API_BLOG_LIST *api = [API_BLOG_LIST api];
     
-    int curBegin = self.pages * 20;
-    int curEnd   = curBegin + 20;
-    api.INPUT( @"pageIndex", [NSString stringWithFormat:@"%d", curBegin]);
-    api.INPUT( @"pageSize", [NSString stringWithFormat:@"%d", curEnd] );
+    api.INPUT( @"pageIndex", [NSString stringWithFormat:@"%d", _pages]);
+    api.INPUT( @"pageSize", [NSString stringWithFormat:@"%d", 20] );
     
     NSString* typeString = [[NSString alloc] init];
     if(self.type == Blog)

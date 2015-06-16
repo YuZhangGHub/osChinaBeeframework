@@ -1406,7 +1406,7 @@ CONVERT_PROPERTY_CLASS( news, NEWS_LIST );
     {
         NSString * requestURI = [[[ServerConfig sharedInstance] url] stringByAppendingString:api_news_list];
         
-        self.HTTP_GET( requestURI );
+        self.HTTP_GET( requestURI ).PARAM(self.input);
     }
     else if ( self.succeed )
     {

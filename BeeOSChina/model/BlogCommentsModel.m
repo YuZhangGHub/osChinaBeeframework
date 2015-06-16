@@ -124,10 +124,8 @@
     
     API_BLOG_COMMENT_LIST * api =[API_BLOG_COMMENT_LIST apiWithResponder:self];
     
-    int curBegin = self.pages * 20;
-    int curEnd   = curBegin + 20;
-    api.INPUT( @"pageIndex", [NSString stringWithFormat:@"%d", curBegin]);
-    api.INPUT( @"pageSize", [NSString stringWithFormat:@"%d", curEnd] );
+    api.INPUT( @"pageIndex", [NSString stringWithFormat:@"%d", _pages]);
+    api.INPUT( @"pageSize", [NSString stringWithFormat:@"%d", 20] );
     api.INPUT( @"id", [NSString stringWithFormat:@"%d", self._id]);
     
     @weakify( api );

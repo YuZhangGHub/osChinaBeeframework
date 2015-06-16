@@ -143,10 +143,9 @@
     // api.req.paging.offset = @(self.blogs.count);
     // api.req.paging.limit = @(10);
     UserModel* userModel = [UserModel sharedInstance];
-    int curBegin = self.pages * 20;
-    int curEnd   = curBegin + 20;
-    api.INPUT( @"pageIndex", [NSString stringWithFormat:@"%d", curBegin]);
-    api.INPUT( @"pageSize", [NSString stringWithFormat:@"%d", curEnd] );
+
+    api.INPUT( @"pageIndex", [NSString stringWithFormat:@"%d", _pages]);
+    api.INPUT( @"pageSize", [NSString stringWithFormat:@"%d", 20] );
     api.INPUT( @"uid", [NSString stringWithFormat:@"%d", userModel.user.uid.intValue]);
     
     if(_authorid > 0)

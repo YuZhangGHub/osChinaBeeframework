@@ -80,7 +80,7 @@
     
     if ( self.news.count )
     {
-        [self gotoPage:(self.news.count / PER_PAGE + 1)];
+        [self gotoPage:(self.news.count / PER_PAGE )];
     }
 }
 
@@ -90,8 +90,13 @@
     
     API_NEWS_LIST * api = [API_NEWS_LIST api];
     
+    api.INPUT( @"catalog", [NSString stringWithFormat:@"%d", 1]);
+    api.INPUT( @"pageIndex", [NSString stringWithFormat:@"%d", page]);
+    api.INPUT( @"pageSize", [NSString stringWithFormat:@"%d", 20] );
+    
     @weakify(api);
     @weakify(self);
+    
     
     api.whenUpdate = ^
     {
